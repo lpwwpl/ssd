@@ -1,0 +1,94 @@
+1. Error 1 and 2:
+
+(1). Wrong Expression:
+void build_wordlist (string* word_list, int capacity, string filename) {
+
+(2). Error description:    
+    Pass by value is the default parameter passing mechanism in C++. When a parameter is passed by value to a function, a copy of the parameter is created and given to the function. This is important, since if we make a change to a parameter that is passed by value, the original variable will remain unchanged.  
+    Pass by reference is used to build functions that can modify the variables in the calling function.
+    In this program, the string ¡°word_list¡± is still not evaluated, and the value of the variable ¡°capacity¡± does not modified and is still 0. So we can¡¯t print out the words in the main method.
+
+(3). Solution:
+Use the passing by reference. Pass by reference is used to build functions that can modify the variables in the calling function.
+
+(4). Correct expression:
+void build_wordlist (string*& word_list, int &capacity, string filename)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+2. Error 3
+
+(1). Wrong Point:
+string new_word_list = *(new string[2 * capacity]);
+
+(2). Error Description:
+"new_word_list" is defined to be a string variable. And the variable's value is the address of dynamic memory,as a result it has no significance of new_word_list.
+
+(3). Solution:
+What we want to do is to allocate a block of dynamic memory. The ¡°new_word_list¡± should be a pointer to a string array, not a string variable. In this way we can easily use move operator to evaluate the array's next value.The address of the dynamic memory which is returned by the new operator can be evaluated to the pointer ¡°new_word_list¡±.
+
+(4). Correct Expression:
+string* new_word_list = new string[2 * capacity];
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+3. Error 4:
+
+(1). Wrong Point:
+new_word_list = word_list[index];
+
+(2). Error Description:
+Related with the error 3.¡°new_word_list¡± points to an array of string. In the for loop, the execute result is continuously modify the "new_word_list"'s first member value pointed by the head address, but it is not our purpose.We should allocate to "new_word_list" array member value by pointer move operation.
+
+(3). Solution:
+By correcting Error3 We have changed modify the new_word_list to be a pointer pointing to an array. So using pointer move operation one by one we can evaluate the array that the "new_word_list" points using the following correct expression. 
+
+(4). Correct Expression:
+new_word_list[index] = word_list[index];
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+4. Error 5:
+
+(1). Wrong Point:
+delete word_list;
+
+(2). Error Description:
+We need to deallocate the all (member)memory of word_list."delete word_list" only deallocate the first member but "word_list" is an array so we need to delete all the member.
+
+(3). Solution:
+The keyword delete is followed by the double bracket [].So it delete all the allocated old array memory avoiding memory leak.The wrong expression does not deallocate all the array memory.This signals to the run-time environment that what delete needs to deallocate is actually an array, and not just a variable.
+
+(4). Correct Expression:
+delete[] word_list;
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+5. Error 6
+
+(1). Wrong Point:
+*word_list = new_word_list;
+
+(2). Error description:
+Because of the Error 3, we have to modify this expression. After we fix the Error 3 the "new_word_list" is no longer a string variable.We should let the word_list and new_word_list point to the same new_word_list's address.
+
+(3). Solution:
+We have to remove the * before the word ¡°word_list¡± let the word_list pointer and new_word_list pointer point to the new_word_list's point memory's head address.
+(4). Correct expression:
+word_list = new_word_list;
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+6. Error 7:
+
+(1). Wrong Expression:
+none.
+
+(2). Error description:
+In this program the new operator is used twice, so we allocate two blocks of memory.We should deallocate the memory twice. But it only deallocates the memory once. It causes memory leak.
+
+(3). Solution:
+We add an expression at the end of the function of main to deallocte the memory allocated by the first new operator.
+
+(4). correct expression:
+delete[] word_list;
+

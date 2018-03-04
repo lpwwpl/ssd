@@ -1,0 +1,5060 @@
+1.
+ Which of the following expressions evaluates to true in C++ if and only if the index variable i is in bounds for an array of size 10? 
+ 
+
+(a) 0 <= i && i < 10
+(b) 0 <= i < 10
+(c) 0 < 10
+(d) 0 <= i && i <= 10  
+Correct answer is  (a)  
+ 0 <= i && i < 10
+2.
+ Which of the following statements about C++ is (are) true 
+
+It is strongly typed. 
+It has been standardized by ISO.
+ 
+ 
+
+(a) II only
+(b) I and II
+(c) None
+(d) I only  
+Correct answer is  (b)  
+ I and II
+3.
+ Which of the following lists of C++ types are ordered increasingly by size, as computed by sizeof()? 
+ 
+
+(a) char, short, int, long
+(b) long, int, char, short
+(c) long, int, short, char
+(d) short, char, int, long  
+Correct answer is  (a)  
+ char, short, int, long
+4.
+ Lines at a store, file cabinets, and bookcases are real-world entities that most resemble _____ in computer science.
+ 
+ 
+
+(a) algorithms
+(b) data structures
+(c) object-oriented programming languages
+(d) functional programming languages  
+Correct answer is  (b)  
+ data structures
+5.
+ Which of the following is not a predefined stream object in C++? 
+ 
+ 
+
+(a) cfile
+(b) cout
+(c) cerr
+(d) cin  
+Correct answer is  (a)  
+ cfile
+6.
+ Regarding C++ standard I/O, the _____ operator writes to a stream and the _____ operator reads from a stream. 
+ 
+ 
+
+(a) <<, >>
+(b) >, <
+(c) <, >
+(d) >>, <<  
+Correct answer is  (a)  
+ <<, >>
+7.
+ One reason for using an assert statement such as
+
+      assert( 0 <= i && i < 10 );
+
+within code is to
+ 
+ 
+
+(a) provide a comment for the user
+(b) send a warning message but continue execution when the condition is violated
+(c) instruct the compiler to set i to any value in the indicated range
+(d) terminate execution and send an error message whenever the condition is violated  
+Correct answer is  (d)  
+ terminate execution and send an error message whenever the condition is violated  
+8.
+ In C++, preprocessor directives begin with which of the following symbols? 
+ 
+
+(a) %
+(b) ?
+(c) #
+(d) -  
+Correct answer is  (c)  
+ #
+9.
+ Assume that Thing is a user-defined class, and consider the following function.
+
+Thing  f(Thing& A)  {
+  Thing B;
+  B.x  =  A.x;
+  return B;
+}
+
+Where in this code will a copy constructor be used?
+ 
+ 
+
+(a) In passing the parameter
+(b) In the return operation
+(c) In the creation of the local variable B
+(d) In copying the data from A to B  
+Correct answer is  (b)  
+ In the return operation
+10.
+ To which of the following is object-based programming ideally suited? 
+ 
+
+(a) Attaining the highest possible efficiency
+(b) Implementing simple monolithic programs
+(c) Encapsulation
+(d) Providing elegant mechanisms for code reuse  
+Correct answer is  (c)  
+ Encapsulation
+11.
+ Which of the following statements properly allocates an array of 100 integers? 
+ 
+
+(a) int *A = new int[100];
+(b) int *A = new (int) 100;
+(c) int &A = new int[100];
+(d) int A = new int[100];  
+Correct answer is  (a)  
+ int *A = new int[100];
+12.
+ At the end of the _____ stage for a C++ program, a(n) _____ can be produced. 
+ 
+ 
+
+(a) linking, executable image
+(b) preprocessing, object file
+(c) linking, source file
+(d) compiling, preprocessed file  
+Correct answer is  (a)  
+ linking, executable image
+13.
+ What is the type name used to represent single characters in C++? 
+ 
+
+(a) Character
+(b) Char
+(c) char
+(d) character  
+Correct answer is  (c)  
+ char
+14.
+ In computer science, a structured representation of information is known as a(n)
+ 
+ 
+
+(a) processor
+(b) cache
+(c) data structure
+(d) algorithm  
+Correct answer is  (c)  
+ data structure
+15.
+ Suppose inf is an available ifstream and c is an available character. Consider the following code fragment.
+
+do
+    c = inf.get();
+while (!inf.eof() && isspace(c));
+
+Which of the following accurately describes the effect of executing this fragment?
+ 
+ 
+
+(a) Characters are read until a white space is read.
+(b) Characters are read until a non-white-space character is read or until the end of the file is reached.
+(c) Characters are read until the end of the file is reached.
+(d) The number of non-white-space characters is counted.  
+Correct answer is  (b)  
+ Characters are read until a non-white-space character is read or until the end of the file is reached.
+16.
+ In C++, the standard input stream is accessible using the object _____, and the standard output stream is accessible using the object _____. 
+ 
+ 
+
+(a) keyboard, screen
+(b) stdin, stdout
+(c) cin, cout
+(d) input, output  
+Correct answer is  (c)  
+ cin, cout
+17.
+ In C++, the preprocessor is
+ 
+ 
+
+(a) a set of APIs provided by several compiler vendors
+(b) a virtual CPU that can be used to simulate machine-code execution
+(c) a tool that manipulates source files before compilation
+(d) a debugging tool common to most visual programming environments  
+Correct answer is  (c)  
+ a tool that manipulates source files before compilation
+18.
+ The purpose of the assignment operator is to 
+ 
+
+(a) provide for proper assignment between objects
+(b) prevent memory leaks
+(c) initialize data members when an instance is first created
+(d) be used internally in an object's copy constructor  
+Correct answer is  (a)  
+ provide for proper assignment between objects
+19.
+ C++ is said to be an object-oriented language because of its support for 
+ 
+ 
+
+(a) pointers
+(b) classes, inheritance, and polymorphism
+(c) C-style comments
+(d) attendant algorithms  
+Correct answer is  (b)  
+ classes, inheritance, and polymorphism
+20.
+ To read data from a file into a C++ program using class ifstream, it is necessary to include the _____ library header file. 
+ 
+ 
+
+(a) fstream
+(b) string
+(c) ctype
+(d) iomanip  
+Correct answer is  (a)  
+ fstream
+21.
+ In C++, a preprocessor directive is a
+ 
+ 
+
+(a) command-line argument supplied to the linker
+(b) comment that prevents the linking of object files into executable programs
+(c) single-line command introduced into a C++ source file
+(d) comment ignored by the preprocessor  
+Correct answer is  (c)  
+ single-line command introduced into a C++ source file
+22.
+ If a user-defined class Complex has overloaded operator+=, then one would expect this operator to have which of the following declarations? 
+ 
+
+(a) void operator+=( float real, float imag );
+(b) Complex& operator+=( const Complex& rhs );
+(c) Complex& operator+=( const Complex rhs );
+(d) void operator+=( const Complex& rhs );  
+Correct answer is  (b)  
+ Complex& operator+=( const Complex& rhs );
+23.
+ Assume that Thing is a user-defined class, and consider the following code fragment, where B is an instance of Thing.
+
+      Thing  A = B;
+
+Which of the following is a class member that is used in this code fragment?
+ 
+ 
+
+(a) The destructor
+(b) The default constructor
+(c) The assignment operator
+(d) The copy constructor  
+Correct answer is  (d)  
+ The copy constructor  
+24.
+ Valid comments in C++ include which of the following? 
+
+/* comment */ 
+/ comment 
+// comment
+ 
+ 
+
+(a) II and III only
+(b) I and III only
+(c) I and II only
+(d) I, II, and III  
+Correct answer is  (b)  
+ I and III only
+25.
+ An ordered set of directives that can be carried out mechanically is known as a(n)
+ 
+ 
+
+(a) tree
+(b) hash table
+(c) algorithm
+(d) associative array  
+Correct answer is  (c)  
+ algorithm
+26.
+ Which of the following is true about a class without a (user-defined) constructor? 
+ 
+
+(a) It must have a destructor.
+(b) It may have a destructor, but might not.
+(c) It cannot have a destructor.
+(d) It cannot have an assignment operator.  
+Correct answer is  (b)  
+ It may have a destructor, but might not.
+27.
+ C++ supports which of the following features? 
+
+Classes 
+Inheritance 
+Exceptions
+ 
+ 
+
+(a) None
+(b) II and III only
+(c) III only
+(d) I, II, and III  
+Correct answer is  (d)  
+ I, II, and III  
+28.
+ Consider the following C++ program segment. 
+
+#include <iostream>
+#include <cstdlib>
+
+using namespace std;
+
+int main(int argc, char* argv[]) {
+    return EXIT_SUCCESS;
+}
+The first two lines of this program segment typically direct the preprocessor to 
+ 
+ 
+
+(a) include the contents of two files into the program segment's source code
+(b) compile two methods and prepare them for use by the program segment's source code
+(c) define two keywords to aid in debugging the program segment
+(d) define two macros available for use in the program segment  
+Correct answer is  (a)  
+ include the contents of two files into the program segment's source code
+29.
+ The purpose of a constructor is to 
+ 
+
+(a) clean up memory when an instance goes out of scope
+(b) initialize data members of a class properly after space has been allocated
+(c) prevent memory leaks
+(d) handle assignments between instances of the class  
+Correct answer is  (b)  
+ initialize data members of a class properly after space has been allocated
+30.
+ How does C++ handle memory allocation? 
+ 
+
+(a) Allocation and deallocation is the responsibility of the programmer.
+(b) C++ has a garbage collector that can be used or turned off.
+(c) Allocation and deallocation is completely shielded from the programmer.
+(d) C++ always uses a garbage collector.  
+Correct answer is  (a)  
+ Allocation and deallocation is the responsibility of the programmer.
+31.
+ If A is an array of 100 integers, which of the following properly deallocates A? 
+ 
+
+(a) delete A;
+(b) delete A[100];
+(c) delete [] A;
+(d) delete [100] A;  
+Correct answer is  (c)  
+ delete [] A;
+32.
+ Suppose a user-defined class Thing has a simple constructor that does not require any calls to new. Which of the following is true about the destructor? 
+ 
+
+(a) It might contain calls to delete, but might not.
+(b) The appropriate destructor will be provided automatically by the compiler.
+(c) It will not contain calls to delete.
+(d) In this case, no destructor is required for class Thing.  
+Correct answer is  (a)  
+ It might contain calls to delete, but might not.
+33.
+ Which of the following statements creates p as an alternative name for the variable i? 
+ 
+ 
+
+(a) int *p = i;
+(b) int &p = *i;
+(c) int &p = i;
+(d) int *p = &i;  
+Correct answer is  (c)  
+ int &p = i;
+34.
+ Which of the following is true about the default parameter passing mechanism in C++? 
+ 
+
+(a) It is call-by-reference.
+(b) It depends on where the function is defined.
+(c) It is call-by-value.
+(d) It is chosen automatically by the compiler.  
+Correct answer is  (c)  
+ It is call-by-value.
+35.
+ Which of the following statements is true about a reference used as a function parameter? 
+ 
+ 
+
+(a) It is not as efficient as using a pointer.
+(b) It allows a function to modify the original object passed in as the argument.
+(c) It cannot be used in a function prototype.
+(d) It passes a copy of the object.  
+Correct answer is  (b)  
+ It allows a function to modify the original object passed in as the argument.
+36.
+ Consider the following C++ program segment: 
+
+int j[10];
+for (int i = 0; i < 10; i++) {
+    j[i] = i;
+}
+int *a = j;
+a++;
+After execution of this program segment, what will be the value of j[0]? 
+ 
+ 
+
+(a) 11
+(b) 2
+(c) 0
+(d) 1  
+Correct answer is  (c)  
+ 0
+37.
+ Which of the following C++ operators is the dereference operator? 
+ 
+ 
+
+(a) *
+(b) %
+(c) &
+(d) !  
+Correct answer is  (a)  
+ *
+38.
+ What, if anything, is wrong with the following C++ code fragment?
+
+      bool  *bp;  int  x;
+      bp = &x;
+
+ 
+ 
+
+(a) A pointer to an int cannot be assigned to a variable that is a pointer to a bool.
+(b) Nothing
+(c) The assignment should be *bp = &x;.
+(d) The & should be a *.  
+Correct answer is  (a)  
+ A pointer to an int cannot be assigned to a variable that is a pointer to a bool.
+39.
+ Which of the following declares p to be a pointer to an integer? 
+ 
+
+(a) int p;
+(b) int p[]
+(c) int *p;
+(d) int **p;  
+Correct answer is  (c)  
+ int *p;
+40.
+ Which of the following is true about variables with dynamic extent? 
+ 
+
+(a) They are created and destroyed by the programmer.
+(b) They are created and destroyed by the compiler.
+(c) They are destroyed only at the end of execution.
+(d) They are created by the programmer, but destroyed by the compiler.  
+Correct answer is  (a)  
+ They are created and destroyed by the programmer.
+41.
+ Each of the following C++ code fragments produces a memory leak except: 
+ 
+
+(a) int *A = new int[10]; delete A;
+(b) int *A = new int[5]; A = new int[5]; delete [] A;
+(c) int *A = new int[10]; delete [] A;
+(d) int *A = new int[5]; A = 0; delete [] A;  
+Correct answer is  (c)  
+ int *A = new int[10]; delete [] A;
+42.
+ What is the effect of the following C++ code fragment?
+
+int   A[100];
+for( int *p = A; p < A + 100; ++p ) {
+    *p = 0;
+}
+
+ 
+ 
+
+(a) It zeroes out the 100 elements of array A.
+(b) It produces an out-of-bounds error.
+(c) It zeroes out A[0]-many elements of array A.
+(d) It sets 100 pointers in A to 0.  
+Correct answer is  (a)  
+ It zeroes out the 100 elements of array A.
+43.
+ Which of the following operations are valid for C++ pointer arithmetic? 
+
+Addition 
+Subtraction 
+Multiplication 
+ 
+ 
+
+(a) I only
+(b) I, II, and III
+(c) I and II only
+(d) II only  
+Correct answer is  (c)  
+ I and II only
+44.
+ Assume that Thing is a user-defined type. Which of the following print functions for Thing is the safest and most efficient? 
+ 
+
+(a) void print( Thing x );
+(b) void print( const Thing& x );
+(c) void print( Thing* x );
+(d) void print( Thing& x );  
+Correct answer is  (b)  
+ void print( const Thing& x );
+45.
+ Polymorphism is a mechanism that is used in order to 
+ 
+
+(a) determine methods of a class based on its data members
+(b) determine the type of an object dynamically at run time
+(c) protect data members from illegal access
+(d) build new classes on top of existing ones  
+Correct answer is  (b)  
+ determine the type of an object dynamically at run time
+46.
+ In C++, the ability for an entity to assume different types is known as 
+ 
+ 
+
+(a) composition
+(b) polymorphism
+(c) inheritance
+(d) static binding  
+Correct answer is  (b)  
+ polymorphism
+47.
+ What is the role of the destructor for the base class when an instance of a derived class goes out of scope? 
+ 
+
+(a) It is available to be called by the user to prevent the destructor for the derived class from being called.
+(b) It must be called by the user, unless the derived class uses dynamic memory (the heap).
+(c) It is called automatically.
+(d) It will not be called and it cannot be called at such a time.  
+Correct answer is  (c)  
+ It is called automatically.
+48.
+ Inheritance is an important feature of C++ because 
+ 
+
+(a) it greatly increases efficiency
+(b) it makes type-checking much easier
+(c) it is a powerful code reuse mechanism
+(d) it can often replace templates  
+Correct answer is  (c)  
+ it is a powerful code reuse mechanism
+49.
+ Consider the following C++ program segment: 
+try {
+    throw out_of_range("out of range");
+}
+catch (runtime_error& e) {
+    cout << e.what();
+   }
+catch (...) {
+    cout << "exception encountered";
+}
+The above program segment will output which of the following character strings? 
+ 
+ 
+
+(a) "runtime error"
+(b) "exception encountered"
+(c) "out of range"
+(d) "what"  
+Correct answer is  (b)  
+ "exception encountered"
+50.
+ Which of the following statements regarding C++ exception specifications is (are) true? 
+
+An exception specification can guarantee that a function does not throw any exceptions. 
+An exception specification can permit a function to throw any type of exception. 
+ 
+ 
+
+(a) I only
+(b) II only
+(c) I and II
+(d) None  
+Correct answer is  (c)  
+ I and II
+51.
+ Which of the following is true about compilation of a template function or class? 
+ 
+
+(a) Compilation takes less time.
+(b) Compilation takes much, much longer.
+(c) Compilation takes slightly longer.
+(d) Templates are not handled during compilation.  
+Correct answer is  (c)  
+ Compilation takes slightly longer.
+52.
+ What is the purpose of class templates? 
+ 
+
+(a) To improve the portability of code
+(b) To avoid the use of dangerous pointers
+(c) To increase the efficiency of the class methods
+(d) To easily specify a group of related classes  
+Correct answer is  (d)  
+ To easily specify a group of related classes  
+53.
+ Consider the following outline of a template array class.
+
+      template<class T>  class Array { ... }
+
+Which of the following declarations are in error with respect to using such a class?
+
+Array<Array<int> > A; 
+Array<Array<int>*> A; 
+Array<int**> A; 
+ 
+ 
+
+(a) None
+(b) III only
+(c) II only
+(d) I only  
+Correct answer is  (a)  
+ None
+54.
+ Which of the following is true about the run-time efficiency of using template functions versus using nontemplate functions? 
+ 
+
+(a) The run-time efficiency is much worse than for template functions.
+(b) The run-time efficiency is better for template functions.
+(c) The run-time efficiency is the same for both.
+(d) The run-time efficiency is slightly worse for template functions.  
+Correct answer is  (c)  
+ The run-time efficiency is the same for both.
+55.
+ Which of the following is necessary in order to obtain polymorphic behavior in C++? 
+ 
+
+(a) Pointers or references are used with virtual functions.
+(b) Only instances of the derived class are used.
+(c) Only instances of the base class are used.
+(d) Templates are avoided.  
+Correct answer is  (a)  
+ Pointers or references are used with virtual functions.
+56.
+ What is composition? 
+ 
+
+(a) It is the same as polymorphism.
+(b) It is the inclusion of one class in another as a data member.
+(c) It is an important idea in Object Oriented Programming, but currently it is not implemented in C++.
+(d) It is a method to build new classes on top of existing ones.  
+Correct answer is  (b)  
+ It is the inclusion of one class in another as a data member.
+57.
+ Consider the following C++ program segment:
+
+try {
+    throw out_of_range("out of range");
+}
+catch (logic_error& e) {
+    cout << e.what();
+   }
+catch (...) {
+    cout << "exception encountered";
+}
+The above program segment will output which of the following character strings? 
+ 
+ 
+
+(a) "what"
+(b) "out of range"
+(c) "exception encountered"
+(d) "logic error"  
+Correct answer is  (b)  
+ "out of range"
+58.
+ In the C++ standard exception hierarchy, which of the following classes is derived from class logic_error? 
+ 
+ 
+
+(a) bad_alloc
+(b) underflow_error
+(c) bad_cast
+(d) length_error  
+Correct answer is  (d)  
+ length_error  
+59.
+ Consider the following outline of a template array class.
+
+      template<class T> class Array { ... }
+
+Which of the following is true about using this outline to implement a general container class?
+ 
+ 
+
+(a) It is a poor choice since the type matching will slow down access at runtime.
+(b) It is a poor choice since templates slow down compilation.
+(c) It is impossible since the algorithm cannot know how to copy an instance of type T.
+(d) It is a reasonable way to implement such a class.  
+Correct answer is  (d)  
+ It is a reasonable way to implement such a class.  
+60.
+ The proper tool for writing an array class that can have some instances with integer elements and other instances with float elements is the use of 
+ 
+
+(a) templates
+(b) inheritance
+(c) unions
+(d) casting  
+Correct answer is  (a)  
+ templates
+61.
+ Consider the following template swap function and data types.
+
+      template<class T>  void  swap( T& a, T& b ){
+          T tmp = a; a = b; b = tmp;
+      }
+      char   c1, c2;
+      int    i1, i2;
+      float  A[10];
+
+Which of the following calls to swap produces a compile time error?
+
+swap( i1, c2 ) 
+swap( c1, i2 ); 
+swap( A[5], A[2] ); 
+ 
+ 
+
+(a) II and III
+(b) I only
+(c) I and II
+(d) I, II, and III  
+Correct answer is  (c)  
+ I and II
+62.
+ Which of the following is an example of a pure virtual function? 
+ 
+ 
+
+(a) int Compute() { Compute = 0; };
+(b) virtual int Compute();
+(c) virtual int Compute() = 0;
+(d) virtual int Compute() { return 0; };  
+Correct answer is  (c)  
+ virtual int Compute() = 0;
+63.
+ Consider the following inheritance declarations.
+
+      class Base    { public: int x; private: int y; };
+      class Derived: public Base  { public: int z; };
+      Derived  D;
+
+Under these declarations, which of the following statements, if any, will fail to compile?
+ 
+ 
+
+(a) D.y = 555;
+(b) D.x = 555;
+(c) None
+(d) D.z = 555;  
+Correct answer is  (a)  
+ D.y = 555;
+64.
+ In C++ exception handling, intermediate exception handlers typically are used to: 
+ 
+ 
+
+(a) override the guarantees of exception specifications
+(b) ensure allocated resources are properly released
+(c) throw user-defined exception classes
+(d) catch exceptions polymorphically  
+Correct answer is  (b)  
+ ensure allocated resources are properly released
+65.
+ Consider the following partial C++ template class definition. 
+
+template<class  T>
+class Array  {
+     public:
+          T& operator[](int  i)  {return  arr[i];}
+          ...
+     private:
+          int  len;             T   *arr;   };
+Which of the following is a (are) correct template instantiation(s)? 
+
+Array<int> A; 
+Array<double> A; 
+Array<Array<int> > A;
+ 
+ 
+
+(a) I only
+(b) I and II only
+(c) I, II, and III
+(d) II only  
+Correct answer is  (c)  
+ I, II, and III
+66.
+ Which of the following describes a difference between template functions and template classes in C++? 
+ 
+ 
+
+(a) Template functions cannot be defined for user-defined types, but template classes can.
+(b) The compiler generates a separate definition for each template function at compile time, but template classes for different types are created at run time.
+(c) The compiler determines the types of a template function's arguments, but the types of template classes must be stated explicitly when declaring objects.
+(d) Template classes cannot be defined for user-defined types, but template functions can.  
+Correct answer is  (c)  
+ The compiler determines the types of a template function's arguments, but the types of template classes must be stated explicitly when declaring objects.
+67.
+ Consider the following definitions of a C++ class. 
+
+class Array  {
+   public:
+     typedef  float  Item;     // <-- change here
+     Item& operator[](int  i)  {return  arr[i];}
+   private:
+     int    len;   // length of array
+     Item  *arr;   // pointer to first elm
+};
+
+template<class  T>
+class Array  {
+     public:
+          T& operator[](int  i)  {return  arr[i];}
+     private:
+          int  len;             T   *arr;   };
+The second definition of class Array is _____ versatile than the first _____ efficient at run time when used in a program. 
+ 
+ 
+
+(a) less, and equally
+(b) more, but less
+(c) more, and equally
+(d) less, but less  
+Correct answer is  (c)  
+ more, and equally
+68.
+ Which of the following statements properly allocates an array of 100 integers? 	
+
+(a) int &A = new int[100];
+(b) int *A = new int[100];
+(c) int *A = new (int) 100;
+(d) int A = new int[100];
+Correct answer is 	(b)
+ int *A = new int[100];
+69.
+ Valid comments in C++ include which of the following?
+
+   1. /* comment */
+   2. / comment
+   3. // comment
+
+	
+
+(a) II and III only
+(b) I and III only
+(c) I and II only
+(d) I, II, and III
+Correct answer is 	(b)
+ I and III only
+70.
+ What is the type name used to represent single characters in C++? 	
+
+(a) Char
+(b) char
+(c) Character
+(d) character
+Correct answer is 	(b)
+ char
+71.
+ An ordered set of directives that can be carried out mechanically is known as a(n)
+	
+
+(a) tree
+(b) hash table
+(c) algorithm
+(d) associative array
+Correct answer is 	(c)
+ algorithm
+72.
+ In C++, the standard input stream is accessible using the object _____, and the standard output stream is accessible using the object _____.
+	
+
+(a) input, output
+(b) cin, cout
+(c) keyboard, screen
+(d) stdin, stdout
+Correct answer is 	(b)
+ cin, cout
+73.
+ Suppose inf is an available ifstream and c is an available character. Consider the following code fragment.
+
+    do
+        c = inf.get();
+    while (!inf.eof() && isspace(c));
+
+Which of the following accurately describes the effect of executing this fragment?
+	
+
+(a) Characters are read until the end of the file is reached.
+(b) The number of non-white-space characters is counted.
+(c) Characters are read until a non-white-space character is read or until the end of the file is reached.
+(d) Characters are read until a white space is read.
+Correct answer is 	(c)
+ Characters are read until a non-white-space character is read or until the end of the file is reached.
+74.
+ One reason for using an assert statement such as
+
+          assert( 0 <= i && i < 10 );
+
+within code is to
+	
+
+(a) send a warning message but continue execution when the condition is violated
+(b) provide a comment for the user
+(c) instruct the compiler to set i to any value in the indicated range
+(d) terminate execution and send an error message whenever the condition is violated
+Correct answer is 	(d)
+ terminate execution and send an error message whenever the condition is violated
+75.
+ In C++, the preprocessor is
+	
+
+(a) a debugging tool common to most visual programming environments
+(b) a virtual CPU that can be used to simulate machine-code execution
+(c) a set of APIs provided by several compiler vendors
+(d) a tool that manipulates source files before compilation
+Correct answer is 	(d)
+ a tool that manipulates source files before compilation
+76.
+ To which of the following is object-based programming ideally suited? 	
+
+(a) Providing elegant mechanisms for code reuse
+(b) Encapsulation
+(c) Implementing simple monolithic programs
+(d) Attaining the highest possible efficiency
+Correct answer is 	(b)
+ Encapsulation
+77.
+ Which of the following is true about a class without a (user-defined) constructor? 	
+
+(a) It must have a destructor.
+(b) It may have a destructor, but might not.
+(c) It cannot have a destructor.
+(d) It cannot have an assignment operator.
+Correct answer is 	(b)
+ It may have a destructor, but might not.
+78.
+ A programmer can detect a syntax error in a C++ program when the program is
+ 
+ 
+
+(a) linked
+(b) executed
+(c) loaded
+(d) compiled  
+Correct answer is  (d)  
+ compiled  
+79.
+ What is the type name used to represent extra precision real numbers in C++? 
+ 
+
+(a) double
+(b) real
+(c) long float
+(d) float  
+Correct answer is  (a)  
+ double
+80.
+ In C++, the directive #include is processed by the 
+ 
+ 
+
+(a) Standard Template Library
+(b) linker
+(c) compiler
+(d) preprocessor  
+Correct answer is  (d)  
+ preprocessor  
+81.
+ All of the following characters are allowed to be part of a valid C++ identifier except 
+ 
+
+(a) _ (underscore)
+(b) X
+(c) 3
+(d) - (hyphen)  
+Correct answer is  (d)  
+ - (hyphen)  
+82.
+ Each of the following is a basic C++ type except 
+ 
+
+(a) unsigned int
+(b) byte
+(c) char
+(d) bool  
+Correct answer is  (b)  
+ byte
+83.
+ Which of the following statements might be produced by the decomposition of a problem into objects and relationships?
+
+"A is a type of B" 
+"A B contains a C" 
+ 
+ 
+
+(a) I and II
+(b) I only
+(c) II only
+(d) None  
+Correct answer is  (a)  
+ I and II
+84.
+ C++ is said to be an object-oriented language because of its support for
+	
+
+(a) pointers
+(b) classes, inheritance, and polymorphism
+(c) C-style comments
+(d) attendant algorithms
+Correct answer is 	(b)
+ classes, inheritance, and polymorphism
+85.
+ Which of the following lists of C++ types are ordered increasingly by size, as computed by sizeof()? 	
+
+(a) char, short, int, long
+(b) long, int, short, char
+(c) long, int, char, short
+(d) short, char, int, long
+Correct answer is 	(a)
+ char, short, int, long
+86.
+ Lines at a store, file cabinets, and bookcases are real-world entities that most resemble _____ in computer science.
+	
+
+(a) object-oriented programming languages
+(b) algorithms
+(c) functional programming languages
+(d) data structures
+Correct answer is 	(d)
+ data structures
+87.
+ To read data from a file into a C++ program using class ifstream, it is necessary to include the _____ library header file.
+	
+
+(a) fstream
+(b) string
+(c) ctype
+(d) iomanip
+Correct answer is 	(a)
+ fstream
+88.
+ In C++, a preprocessor directive is a
+	
+
+(a) command-line argument supplied to the linker
+(b) comment that prevents the linking of object files into executable programs
+(c) single-line command introduced into a C++ source file
+(d) comment ignored by the preprocessor
+Correct answer is 	(c)
+ single-line command introduced into a C++ source file
+89.
+ If a user-defined class Complex has overloaded operator+=, then one would expect this operator to have which of the following declarations? 	
+
+(a) void operator+=( float real, float imag );
+(b) Complex& operator+=( const Complex& rhs );
+(c) Complex& operator+=( const Complex rhs );
+(d) void operator+=( const Complex& rhs );
+Correct answer is 	(b)
+ Complex& operator+=( const Complex& rhs );
+90.
+ Assume that Thing is a user-defined class, and consider the following code fragment, where B is an instance of Thing.
+
+          Thing  A = B;
+
+Which of the following is a class member that is used in this code fragment?
+	
+
+(a) The destructor
+(b) The default constructor
+(c) The assignment operator
+(d) The copy constructor
+Correct answer is 	(d)
+ The copy constructor
+91.
+ How does C++ handle memory allocation? 	
+
+(a) Allocation and deallocation is the responsibility of the programmer.
+(b) C++ has a garbage collector that can be used or turned off.
+(c) Allocation and deallocation is completely shielded from the programmer.
+(d) C++ always uses a garbage collector.
+Correct answer is 	(a)
+ Allocation and deallocation is the responsibility of the programmer.
+92.
+ If A is an array of 100 integers, which of the following properly deallocates A? 	
+
+(a) delete A;
+(b) delete A[100];
+(c) delete [] A;
+(d) delete [100] A;
+Correct answer is 	(c)
+ delete [] A;
+93.
+ Suppose a user-defined class Thing has a simple constructor that does not require any calls to new. Which of the following is true about the destructor? 	
+
+(a) It might contain calls to delete, but might not.
+(b) The appropriate destructor will be provided automatically by the compiler.
+(c) It will not contain calls to delete.
+(d) In this case, no destructor is required for class Thing.
+Correct answer is 	(a)
+ It might contain calls to delete, but might not.
+94.
+ Which of the following statements creates p as an alternative name for the variable i?
+	
+
+(a) int *p = i;
+(b) int &p = *i;
+(c) int &p = i;
+(d) int *p = &i;
+Correct answer is 	(c)
+ int &p = i;
+95.
+ Which of the following is true about the default parameter passing mechanism in C++? 	
+
+(a) It is call-by-reference.
+(b) It depends on where the function is defined.
+(c) It is call-by-value.
+(d) It is chosen automatically by the compiler.
+Correct answer is 	(c)
+ It is call-by-value.
+96.
+ Which of the following statements is true about a reference used as a function parameter?
+	
+
+(a) It is not as efficient as using a pointer.
+(b) It allows a function to modify the original object passed in as the argument.
+(c) It cannot be used in a function prototype.
+(d) It passes a copy of the object.
+Correct answer is 	(b)
+ It allows a function to modify the original object passed in as the argument.
+97.
+ Consider the following C++ program segment:
+
+    int j[10];
+    for (int i = 0; i < 10; i++) {
+        j[i] = i;
+    }
+    int *a = j;
+    a++;
+
+After execution of this program segment, what will be the value of j[0]?
+	
+
+(a) 11
+(b) 2
+(c) 0
+(d) 1
+Correct answer is 	(c)
+ 0
+98.
+ Which of the following C++ operators is the dereference operator?
+	
+
+(a) *
+(b) %
+(c) &
+(d) !
+Correct answer is 	(a)
+ *
+99.
+ What, if anything, is wrong with the following C++ code fragment?
+
+          bool  *bp;  int  x;
+          bp = &x;
+
+	
+
+(a) A pointer to an int cannot be assigned to a variable that is a pointer to a bool.
+(b) Nothing
+(c) The assignment should be *bp = &x;.
+(d) The & should be a *.
+Correct answer is 	(a)
+ A pointer to an int cannot be assigned to a variable that is a pointer to a bool.
+100.
+ Which of the following declares p to be a pointer to an integer? 	
+
+(a) int p;
+(b) int p[]
+(c) int *p;
+(d) int **p;
+Correct answer is 	(c)
+ int *p;
+101.
+ Which of the following is true about variables with dynamic extent? 	
+
+(a) They are created and destroyed by the programmer.
+(b) They are created and destroyed by the compiler.
+(c) They are destroyed only at the end of execution.
+(d) They are created by the programmer, but destroyed by the compiler.
+Correct answer is 	(a)
+ They are created and destroyed by the programmer.
+102.
+ Each of the following C++ code fragments produces a memory leak except: 	
+
+(a) int *A = new int[10]; delete A;
+(b) int *A = new int[5]; A = new int[5]; delete [] A;
+(c) int *A = new int[10]; delete [] A;
+(d) int *A = new int[5]; A = 0; delete [] A;
+Correct answer is 	(c)
+ int *A = new int[10]; delete [] A;
+103.
+ What is the effect of the following C++ code fragment?
+
+    int   A[100];
+    for( int *p = A; p < A + 100; ++p ) {
+        *p = 0;
+    }
+
+	
+
+(a) It zeroes out the 100 elements of array A.
+(b) It produces an out-of-bounds error.
+(c) It zeroes out A[0]-many elements of array A.
+(d) It sets 100 pointers in A to 0.
+Correct answer is 	(a)
+ It zeroes out the 100 elements of array A.
+104.
+ Which of the following operations are valid for C++ pointer arithmetic?
+
+   1. Addition
+   2. Subtraction
+   3. Multiplication
+
+	
+
+(a) I only
+(b) I, II, and III
+(c) I and II only
+(d) II only
+Correct answer is 	(c)
+ I and II only
+105.
+ Assume that Thing is a user-defined type. Which of the following print functions for Thing is the safest and most efficient? 	
+
+(a) void print( Thing x );
+(b) void print( const Thing& x );
+(c) void print( Thing* x );
+(d) void print( Thing& x );
+Correct answer is 	(b)
+ void print( const Thing& x );
+106.
+ What, if anything, is wrong with the following code fragment?
+
+      Thing  *ptr = new Thing;
+      ptr = NULL;
+
+ 
+ 
+
+(a) Nothing
+(b) When executed, it will create an instance of Thing and then overwrite it with NULL.
+(c) When executed, it will assign a NULL pointer to a variable that is a pointer to a Thing.
+(d) When executed, it will create an instance of Thing and then remove the only reference to this instance without destroying it first.  
+Correct answer is  (d)  
+ When executed, it will create an instance of Thing and then remove the only reference to this instance without destroying it first.  
+107.
+ Consider the following C++ program segment:
+
+try {
+    throw out_of_range("out of range");
+    cout << "try ";
+}
+catch (...) {
+    cout << "catch ";
+}
+The above program segment will output which of the following character strings?
+ 
+ 
+
+(a) "catch "
+(b) "out of range catch "
+(c) "catch try "
+(d) "try catch "  
+Correct answer is  (a)  
+ "catch "
+108.
+ Which of the following is (are) true about template classes in C++? 
+
+Methods cannot be overloaded in templated class definitions. 
+Private data of a templated class cannot be declared to have the type of the templated parameter. 
+ 
+ 
+
+(a) None
+(b) I only
+(c) II only
+(d) I and II  
+Correct answer is  (a)  
+ None
+109.
+ If templates were removed from C++, which of the following would be true?
+
+Some algorithms could no longer be implemented. 
+Any particular algorithm could still be implemented, but often less elegantly. 
+Any particular algorithm could still be implemented, but the efficiency would often be catastrophically worse. 
+ 
+ 
+
+(a) I only
+(b) II only
+(c) II and III
+(d) None  
+Correct answer is  (d)  
+ None  
+110.
+ Which of the following is true of inheritance? 
+ 
+
+(a) It protects data members from illegal access.
+(b) It is an important idea in Object Oriented Programming, but currently it is not implemented in C++.
+(c) It provides for the elegant construction of a new class from an existing class.
+(d) It causes one type to behave like several types.  
+Correct answer is  (c)  
+ It provides for the elegant construction of a new class from an existing class.
+111.
+ Which of the following View Assessment Result: Multiple-Choice Quiz 3
+
+
+
+ 
+
+ Your performance was as follows:  
+
+ 1. 
+ Polymorphism is a mechanism that is used in order to 
+ 
+
+(a) determine the type of an object dynamically at run time
+(b) determine methods of a class based on its data members
+(c) build new classes on top of existing ones
+(d) protect data members from illegal access  
+Correct answer is  (a)  
+ determine the type of an object dynamically at run time
+112.
+ Consider the following partial C++ templated class definition. 
+
+template<class A, class B>
+class ...
+The line of code template<class A, class B> will generally be followed by 
+ 
+
+(a) a class definition containing the generic type parameters A and B.
+(b) definitions of a class called A and a class called B.
+(c) the definition of a class called A that uses the generic type parameter B.
+(d) a class definition that defines a subtype of the template classes A and B.  
+Correct answer is  (a)  
+ a class definition containing the generic type parameters A and B.
+113.
+ In the C++ standard exception hierarchy, which of the following classes is not derived from class runtime_error? 
+ 
+ 
+
+(a) range_error
+(b) domain_error
+(c) underflow_error
+(d) overflow_error  
+Correct answer is  (b)  
+ domain_error
+114.
+ Consider the following template swap function.
+
+      template<class T>  void  swap( T& a, T& b ){
+          T tmp = a; a = b; b = tmp;
+      }
+
+Determining the right choice of type parameter T occurs at which of the following times?
+ 
+ 
+
+(a) Link time
+(b) In part at compile time, and in part at run time
+(c) Run time only
+(d) Compile time only  
+Correct answer is  (d)  
+ Compile time only  
+115.
+ Integrated programming environments make it difficult to mix and match tools from different sources. This is 
+ 
+
+(a) bad, because no single vendor is likely to be the source of all the best tools
+(b) bad, because all the tools will then have the same user interface
+(c) good, because tools from different sources cannot be made to interact with each other
+(d) good, because it ensures compilation is not done incrementally by accident  
+Correct answer is  (a)  
+ bad, because no single vendor is likely to be the source of all the best tools
+116.
+ Which of the following does a debugger do? 
+Analyze the source code to find programming errors. 
+Decode machine code generated by a compiler. 
+Stop execution of a program. 
+ 
+ 
+
+(a) III only
+(b) I, II, and III.
+(c) II and III only
+(d) I and III only  
+Correct answer is  (c)  
+ II and III only
+117.
+ In Visual C++, a Win32 Console Application is 
+ 
+
+(a) a program that is able to control the operating system of a windows computer
+(b) built by using sophisticated "Application Wizards"
+(c) the status window of the Visual C++ environment
+(d) the simplest type of application Visual C++ can generate  
+Correct answer is  (d)  
+ the simplest type of application Visual C++ can generate  
+118.
+ When debugging using Visual C++, which of the following are possible through the Watch window? 
+The program's execution can be stopped. 
+The value of an arbitrary C expression can be calculated. 
+The value of a program variable can be set. 
+ 
+ 
+
+(a) III only
+(b) II only
+(c) II and III only
+(d) I, II, and III.  
+Correct answer is  (c)  
+ II and III only
+119.
+ Consider the following program segment. 
+int factorial(int * arg) {
+    int n = *arg;
+    if (n == 1) return n;
+    return n * factorial(n - 1);
+}
+
+When the segment is executed, the variable n is allocated to 
+ 
+
+(a) just one address, and it was chosen by the compiler
+(b) just one address, and it is not known to the compiler
+(c) many addresses none of which is known to the compiler
+(d) many addresses that were chosen by the compiler  
+Correct answer is  (c)  
+ many addresses none of which is known to the compiler
+120.
+ Consider the function factorial() defined as follows. 
+int factorial(int n) {
+    if (n == 1) return n;
+    return n * factorial(n - 1);
+}
+
+How many activation records of factorial are allocated by invocation of the expression factorial(4)? 
+ 
+
+(a) 4
+(b) 0
+(c) 1
+(d) 5  
+Correct answer is  (a)  
+ 4
+121.
+ At which of the following times is an activation record created? 
+When a program starts executing. 
+Every time a function is invoked. 
+When a variable is declared. 
+ 
+ 
+
+(a) III only
+(b) I and II only
+(c) II only
+(d) II and III only  
+Correct answer is  (b)  
+ I and II only
+122.
+ What does the following program print? 
+int callee(int * count) {
+    count++;
+    return *count;
+}
+int main (int argc, char *argv[]) {
+    int count = 4;
+    int retval;
+    retval = callee(&count);
+    printf("%d", retval);
+    return 0;
+}
+
+ 
+ 
+
+(a) 8
+(b) cannot be determined from the information given.
+(c) 5
+(d) 4  
+Correct answer is  (b)  
+ cannot be determined from the information given.
+123.
+ Consider the following segment of C source code. 
+int a = 8;
+int b = *&a;
+
+What is the value of variable b at the end of execution of the segment? 
+ 
+
+(a) &a
+(b) (int) &a
+(c) (int) &b
+(d) a  
+Correct answer is  (d)  
+ a  
+124.
+ Consider the following segment of a C program. 
+int i = 99;
+int a[100];
+i = a[i + 1];
+
+Which of the following is true of the segment? 
+ 
+
+(a) Execution will fail because a has the wrong size.
+(b) i will have the value of the last element of the array a at the end of any execution of the segment.
+(c) When executed, the program will be prematurely terminated by the operating system because of an illegal memory access.
+(d) i will have the value 99 at the end of any execution of the segment.  
+Correct answer is  (d)  
+ i will have the value 99 at the end of any execution of the segment.  
+125.
+ We want the variable factorialfunc to hold the address of the first instruction of the following function: 
+int factorial(int n) {
+    if (n == 1) return n;
+    return n * factorial(n -1);
+}
+
+How would we declare the variable? 
+ 
+
+(a) factorial() * factorialfunc;
+(b) we can't: C cannot extract the addresses of instructions.
+(c) int (*factorialfunc)(int);
+(d) int (int) * factorialfunc  
+Correct answer is  (c)  
+ int (*factorialfunc)(int);
+126.
+ Consider the following pseudo-instructions. 
+0x40B7D8 i = i - 1
+0x40B7E0 branch-if-not-zero 0x40B7D8
+
+Which of the following code fragments do the instructions encode? 
+if (i != 0) i = i -1; 
+while (--i); 
+do { i = i - 1; } while (i); 
+ 
+ 
+
+(a) III only
+(b) II and III only
+(c) I only
+(d) II only  
+Correct answer is  (b)  
+ II and III only
+127.
+ Which of the following computations may be performed by exactly one CPU instruction? 
+a = 5; 
+a = b + c * 5; 
+for (i = 0; i < 10; i += a[i++]); 
+ 
+ 
+
+(a) I and II only
+(b) II only
+(c) I only
+(d) I, II, and III  
+Correct answer is  (c)  
+ I only
+128.
+ Programs compiled for an Intel Pentium processor do not execute properly on a SPARC processor from Sun Microsystems because 
+ 
+
+(a) the assembly mnemonics for the same "opcode" are different in the two processors
+(b) the memory of a SPARC CPU is numbered from top to bottom
+(c) copyrights regarding code cannot be violated
+(d) the operation codes understood by the two processors are different  
+Correct answer is  (d)  
+ the operation codes understood by the two processors are different  
+129.
+ The machine code generated from source code by a compiler 
+ 
+
+(a) associates variable values with their names
+(b) executes more quickly than the source code
+(c) can be easily inspected to check the correctness of the compiler
+(d) does not preserve all the information given in the source code  
+Correct answer is  (d)  
+ does not preserve all the information given in the source code  
+130.
+ Within Visual C++, which of the following will reveal the value of a variable when the program is stopped at a breakpoint? 
+Placing the mouse pointer over the variable name in the source file window. 
+Inserting a printf() in the program. 
+Typing the variable name on the "Watch" window. 
+ 
+ 
+
+(a) III only
+(b) I and III only
+(c) II and III only
+(d) I, II, and III  
+Correct answer is  (b)  
+ I and III only
+131.
+ When using a debugger to find the cause of a program's incorrect behavior, 
+ 
+
+(a) the program is usually executed to the point at which the behavior occurs and then executed backwards to find the cause
+(b) it is often necessary to start the program multiple times under the debugger
+(c) it is fastest to start by stopping the debugger long before the behavior appears
+(d) the faulty code fragment must first be identified  
+Correct answer is  (b)  
+ it is often necessary to start the program multiple times under the debugger
+132.
+ What does the following program print? 
+void callee(int * count) {
+    count++;
+}
+int main (int argc, char *argv[]) {
+    int count = 4;
+    callee(&count);
+    printf("%d", count);
+    return 0;
+}
+
+ 
+ 
+
+(a) 8
+(b) 5
+(c) cannot be determined from the information given.
+(d) 4  
+Correct answer is  (d)  
+ 4  
+133.
+ When executing a function callee(), which of the following are true regarding the value of the frame pointer? 
+It marks the top of the stack frame of the function that invoked callee(). 
+It marks the bottom of the stack frame of callee() 
+It is the top of the stack. 
+ 
+ 
+
+(a) I only
+(b) II only
+(c) III only
+(d) I and II only  
+Correct answer is  (d)  
+ I and II only  
+134.
+ Consider the program given below. 
+#include 
+int callee(void) {
+    int count = 5;
+    printf("%d ", (int) &count);
+    return count;
+}
+int main (int argc, char *argv[]) {
+    int count = 4;
+    count = callee();
+    printf("%d ", (int) &count);   
+    return 0;
+}
+Which of the following describes the output of the program? 
+ 
+
+(a) Two different integers are printed, and the value of neither can be determined from the information given.
+(b) 5 is printed twice on the same line.
+(c) One integer is printed twice, and its value cannot be determined from the information given.
+(d) 5 and 4 are printed, in that order on the same line.  
+Correct answer is  (a)  
+ Two different integers are printed, and the value of neither can be determined from the information given.
+135.
+ What does the following program print? 
+void callee(int * count) {
+    (*count)++;
+}
+int main (int argc, char *argv[]) {
+    int count = 4;
+    callee(count);
+    printf("%d", count);
+    return 0;
+}
+
+ 
+ 
+
+(a) 5
+(b) 4
+(c) nothing: it will not compile successfully
+(d) 8  
+Correct answer is  (c)  
+ nothing: it will not compile successfully
+136.
+ In a computer in which both addresses and integers are 32 bits wide, how many bytes of memory will the compiler allocate as a result of the following pointer declaration? 
+int * pointer;  
+ 
+
+(a) 8
+(b) 64
+(c) 0
+(d) 4  
+Correct answer is  (d)  
+ 4  
+137.
+ In one computer, the bytes with addresses A, A+1, A+2 and A+3 contain the integer 256, and the variable declared with int * a; has the value A. In a different computer, the bytes with addresses B, B+1, B+2 and B+3 also contain the integer 256, and the variable declared with int * b has the value B. Which of the following are necessarily true? 
+The contents of A+1 are equal to the contents of B+1. 
+The contents of A+1 are equal to the contents of B+2. 
+*a == *b 
+ 
+ 
+
+(a) I and III only
+(b) II and III only
+(c) I only
+(d) III only  
+Correct answer is  (d)  
+ III only  
+138.
+ Suppose that, using a tool such as the memory window of Visual C++, we found that a certain set of contiguous memory locations contained the integer 0xC605CD623A8365000000. What could these memory locations hold? 
+the integer 0xC605CD623A8365000000 
+a string 
+a CPU instruction 
+ 
+ 
+
+(a) I only
+(b) I, II, and III
+(c) III only
+(d) I and II only  
+Correct answer is  (b)  
+ I, II, and III
+139.
+ A branch instruction 
+ 
+
+(a) sets the program counter to one of two possible values
+(b) sets the program counter to one of many possible values
+(c) unconditionally sets the program counter to its operand
+(d) increases the program counter by a fixed amount  
+Correct answer is  (a)  
+ sets the program counter to one of two possible values
+140.
+ Which of the following Visual C++ objects are contained within a "Project"? 
+Files 
+Visual C++ Solutions 
+Flow charts 
+ 
+ 
+
+(a) II only
+(b) I only
+(c) II and III only
+(d) I, II and III  
+Correct answer is  (b)  
+ I only
+141.
+ Which of the following must be true if a program is stopped at a specific line within the Visual C++ debugger? 
+There is at least one breakpoint enabled. 
+There is a breakpoint enabled on that line. 
+There is a breakpoint enabled on the line preceding that line. 
+ 
+ 
+
+(a) I and II only
+(b) I and III only
+(c) I only
+(d) none  
+Correct answer is  (d)  
+ none  
+142.
+ Consider the following program. 
+int i;
+int j = 1;
+int callee(int number) {
+    int plusone;
+    plusone = number + 1;
+    return plusone;
+}
+int main (int argc, char *argv[]) {
+    if (j == 1) return callee(i);
+    return j;
+}
+
+Which of the following are allocated in the activation record immediately after the function callee() is invoked? 
+ 
+
+(a) i only.
+(b) plusone only.
+(c) i, j and number only.
+(d) plusone and number only.  
+Correct answer is  (d)  
+ plusone and number only.  
+143.
+ Consider the following function. 
+int factorial(int n) {
+    if (n == 1) return n;
+    return n * factorial(n - 1);
+}
+
+How many activation records are "popped" when it is invoked by the expression factorial(4)? 
+ 
+
+(a) 0
+(b) 4
+(c) 5
+(d) 1  
+Correct answer is  (b)  
+ 4
+144.
+ Activation records are organized in stacks because 
+ 
+
+(a) they are seldom needed during program execution.
+(b) functions need to access all the variables of the functions that call them.
+(c) stacks are simple enough for the hardware to manage.
+(d) stacks allow activation records to be pushed and popped in any order.  
+Correct answer is  (c)  
+ stacks are simple enough for the hardware to manage.
+145.
+ Consider the following code fragment. 
+int a;
+int b;
+int main(int argc, char *argv[]) {
+   int c;
+   int d;
+   ...
+   /* some code */
+}
+
+Which of the following must be true? 
+ 
+
+(a) The values of *a and *b are closer to each other than the values of *c and *d.
+(b) The value of *d is closer to the value of *c than to the value of *a.
+(c) The value of &d is closer to the value of &c than to the value of &a.
+(d) The values of &a and &b are closer to each other than the values of &c and &d.  
+Correct answer is  (c)  
+ The value of &d is closer to the value of &c than to the value of &a.
+146.
+ In a computer in which both addresses and integers are 32 bits wide, how many bytes of memory will the compiler allocate for following code fragment? 
+int a;
+int * b = &a;
+
+ 
+ 
+
+(a) 32
+(b) 4
+(c) 8
+(d) 0  
+Correct answer is  (c)  
+ 8
+147.
+ Which of the following is a good reason (are good reasons) to equip the CPU with small amounts of fast memory? 
+To make the design of the compiler simpler 
+To make some CPU instructions smaller 
+To make some CPU instructions faster 
+ 
+ 
+
+(a) II only
+(b) II and III only
+(c) III only
+(d) I, II, and III  
+Correct answer is  (b)  
+ II and III only
+148.
+ How many return addresses does a C function have as a program executes? 
+ 
+
+(a) two, one for each branch
+(b) as many as the number of times it is invoked
+(c) as many as the number of return statements within the function
+(d) one  
+Correct answer is  (b)  
+ as many as the number of times it is invoked
+149.
+ Which of the following are true of the effect that optimizations have on the machine code generated by compilers? 
+The resulting code will be faster and/or smaller. 
+The resulting code will be clearer. 
+The resulting code will be harder to debug. 
+ 
+ 
+
+(a) I and II only
+(b) I and III only
+(c) I only
+(d) I, II, and III  
+Correct answer is  (b)  
+ I and III only
+150.
+ Consider the following fragment of C++ source code. 
+String msg; unsigned int x; int y;
+cin >> msg >> x >> y;
+cout << x + y;
+
+Which of the following is (are) true regarding execution of the segment? 
+The input statement will always take the same amount of time to execute. 
+The output statement will always be executed immediately after the input statement. 
+If x and y are both positive, an integer greater than both will be printed. 
+ 
+ 
+
+(a) none
+(b) II only
+(c) I and II only
+(d) II and III only  
+Correct answer is  (a)  
+ none
+151.
+ The program counter contains 
+ 
+
+(a) the number of CPU instructions a program has executed so far
+(b) the address of the CPU instruction that is about to be executed
+(c) the amount of memory a program is currently using
+(d) the number of times a program has been executed  
+Correct answer is  (b)  
+ the address of the CPU instruction that is about to be executed
+152.
+ A CPU register is a word of CPU memory that 
+ 
+
+(a) is automatically loaded when a CPU instruction refers to a word of normal memory
+(b) is explicitly loaded and unloaded from normal memory by compiler-generated instructions
+(c) records the results of periodic CPU diagnostics
+(d) houses a critical variable for the duration of the execution of a program  
+Correct answer is  (b)  
+ is explicitly loaded and unloaded from normal memory by compiler-generated instructions
+153.
+ Which of the following is able to describe a computation at the highest level of abstraction? 
+ 
+
+(a) machine code
+(b) C++ code
+(c) C code
+(d) logic Gates  
+Correct answer is  (b)  
+ C++ code
+154.
+ Consider the following code. 
+char a[100];
+a[99] = *((char *) (((int) &a[0]) + 4))
+
+If integers are 32 bits wide, which of the following values is equal to a[99]? 
+ 
+
+(a) the integer stored in the bytes a[4], a[5], a[6] and a[7]
+(b) a[0] + 4
+(c) a[4]
+(d) a[3]  
+Correct answer is  (c)  
+ a[4]
+155.
+ Immediately after the CPU executes an instruction that is neither a branch nor a jump instruction, the program counter 
+ 
+
+(a) remains unchanged
+(b) is incremented by one
+(c) has a value that cannot be determined without further information
+(d) is incremented to point to the following instruction  
+Correct answer is  (d)  
+ is incremented to point to the following instruction  
+156.
+ Consider the following program. 
+int i;
+int * jp = &i;
+int main(int i, char * argv[]) {
+    printf("%d %d\n", (int) &i, (int) jp);
+}
+
+Which of the following describes what it prints? 
+ 
+
+(a) two very different integers
+(b) nothing: it will not compile because it is ambiguous
+(c) two values, one 4 greater than the other
+(d) two integers that are exactly the same  
+Correct answer is  (a)  
+ two very different integers
+157.
+ Decomposition of a problem involves which of the following?
+ 
+ 
+
+(a) Identifying entities and relationships that will aid in solving the problem
+(b) Reverse-engineering an algorithm that solves a different problem
+(c) Determining a programming language for implementing a solution to the problem
+(d) Simplifying the problem by eliminating low-priority requirements  
+Correct answer is  (a)  
+ Identifying entities and relationships that will aid in solving the problem
+158.
+ To produce an executable image, a C++ source file must be _____, then _____, and finally _____. 
+ 
+ 
+
+(a) linked, preprocessed, compiled
+(b) compiled, linked, preprocessed
+(c) compiled, preprocessed, linked
+(d) preprocessed, compiled, linked  
+Correct answer is  (d)  
+ preprocessed, compiled, linked  
+159.
+ A jump instruction 
+ 
+
+(a) changes the program counter only if its operand is equal to zero
+(b) unconditionally sets the program counter to its operand
+(c) changes a pointer to point to the next element of an array
+(d) increases the program counter  
+Correct answer is  (b)  
+ unconditionally sets the program counter to its operand
+160.
+ Which of the following is the C++ preprocessor directive for file inclusion? 
+ 
+
+(a) #pragma
+(b) #ifndef
+(c) #define
+(d) #include  
+Correct answer is  (d)  
+ #include  
+161.
+ Which of the following C++ operators is the address-of operator? 
+ 
+ 
+
+(a) !
+(b) &
+(c) *
+(d) %  
+Correct answer is  (b)  
+ &
+162.
+ Consider the following C++ program segment: 
+
+int j = 5;
+int *a = &j;
+*a = *a + 4;
+After execution of this program segment, what will be the value of the variable j? 
+ 
+ 
+
+(a) 0
+(b) 5
+(c) 4
+(d) 9  
+Correct answer is  (d)  
+ 9  
+163.
+ In C++ exception handling, a try block must be followed by _____ catch block(s). 
+ 
+ 
+
+(a) one or more
+(b) three or fewer
+(c) exactly two
+(d) exactly one  
+Correct answer is  (a)  
+ one or more
+164.
+ Under what circumstances will a member function in C++ display polymorphic behavior? 
+ 
+
+(a) If and only if the function is explicitly declared to be virtual
+(b) If and only if the class uses private inheritance
+(c) Always
+(d) If and only if the class is not a template class  
+Correct answer is  (a)  
+ If and only if the function is explicitly declared to be virtual
+165.
+ In a template definition
+
+      template<class T>  ...
+
+the template parameter T ranges over
+ 
+ 
+
+(a) classes as well as structs
+(b) only built-in types
+(c) only user-defined classes
+(d) all types  
+Correct answer is  (d)  
+ all types  
+166.
+ The purpose of function templates is to 
+ 
+
+(a) help the type-checker search for errors
+(b) increase the efficiency of various algorithms
+(c) easily specify a family of operationally equivalent functions
+(d) replace generic void* pointers in C  
+Correct answer is  (c)  
+ easily specify a family of operationally equivalent functions
+167.
+ Compared to a sequence of machine code instructions, a fragment of C code 
+ 
+
+(a) describes the actions of the computer, not just of the CPU
+(b) does not engage any transistors during its execution
+(c) may describe the same algorithm
+(d) is the native way to program most computers  
+Correct answer is  (c)  
+ may describe the same algorithm
+168.
+ Consider the following program. 
+int square(int * arg) {
+    int n = * arg;
+    return n * n;
+}
+int main (int argc, char * argv[]) {
+    int arg = strtol(argv[1], NULL, 0);
+    return square(arg);
+}
+
+When it is executed with the argument 5, the variable n is allocated to 
+ 
+
+(a) exactly one address chosen by the compiler.
+(b) many addresses neither of which are known to the compiler.
+(c) exactly one address not known to the compiler.
+(d) many addresses chosen by the compiler.  
+Correct answer is  (c)  
+ exactly one address not known to the compiler.
+169.
+ The Visual C++ Memory window displays 
+ 
+
+(a) the names and values of variables in memory, interpreted as 32-bit integers no matter what the variables' types
+(b) the contents of memory, interpreted as 32-bit integers, without the associated variable names
+(c) the names and values of variables in memory, interpreted in one of several ways
+(d) the contents of memory, interpreted in one of several ways, without the associated variable names  
+Correct answer is  (d)  
+ the contents of memory, interpreted in one of several ways, without the associated variable names  
+170.
+ Which of the following may a Visual C++ Project contain? 
+icons and HTML pages 
+a C source file 
+a flow chart 
+ 
+ 
+
+(a) I, II and III
+(b) I and II only
+(c) III only
+(d) II only  
+Correct answer is  (b)  
+ I and II only
+171.
+ Consider the following segment of a C program. 
+int i = 99;
+int a[100];
+i = a[i + 1];
+
+Which of the following is true of the segment, assuming that Microsoft Visual C++ is used as the compiler? 
+ 
+
+(a) i will have the value of the last element of the array a at the end of any execution of the segment.
+(b) Execution will fail because a has the wrong size.
+(c) i will have the value 99 at the end of any execution of the segment.
+(d) When executed, the program will be prematurely terminated by the operating system because of an illegal memory access.  
+Correct answer is  (c)  
+ i will have the value 99 at the end of any execution of the segment.
+172.
+ Consider the following program. 
+#include 
+
+int i;
+int * jp = &i;
+void main(int i, char * argv[]) {
+    printf("%d %d\\n", (int) &i, (int) jp);
+}
+
+Which of the following describes what it prints? 
+ 
+
+(a) two very different integers
+(b) nothing: it will not compile because it is ambiguous
+(c) two values, one 4 greater than the other
+(d) two integers that are exactly the same  
+Correct answer is  (a)  
+ two very different integers
+173.
+ What is printed as a result of execution of the following program? 
+#include <stdio.h>
+void callee(int * count) {
+    (*count)++;
+}
+int main (int argc, char *argv[]) {
+    int count = 4;
+    callee(&count);
+    printf("%d", count);
+    return 0;
+}
+ 
+ 
+
+(a) 4
+(b) 5
+(c) It cannot be determined from the information given.
+(d) 8  
+Correct answer is  (b)  
+ 5
+174.
+ Which of the following could be represented by one bit of information? 
+ 
+
+(a) the position of a light switch
+(b) the color of a single pixel on a true-color computer display
+(c) the current channel of a television receiver
+(d) an ASCII character  
+Correct answer is  (a)  
+ the position of a light switch
+175.
+ In C, what is the following binary number in hexadecimal? 
+11010101  
+ 
+
+(a) 0x5D
+(b) 0xD5
+(c) 0xB5
+(d) 0xAB  
+Correct answer is  (b)  
+ 0xD5
+176.
+ What is the value of the following C expression? 
+0x1234 << 3  
+ 
+
+(a) 0x1234000
+(b) 0x91A0
+(c) 0x48CE
+(d) 0x9340  
+Correct answer is  (b)  
+ 0x91A0
+177.
+ What is the value of the following C expression? 
+0x1234 >> 5  
+ 
+
+(a) 0x0092
+(b) 0x0000
+(c) 0x0091
+(d) 0x00A3  
+Correct answer is  (c)  
+ 0x0091
+178.
+ Assume that array a is at location 1000 (decimal). Execution of the following program results in what being printed? 
+int a[12];
+main() {
+    int i;
+    for (i = 0; i < 12; i++) a[i] = i;
+    printf("%d\n", *(a + 5));
+}
+
+ 
+ 
+
+(a) 1005
+(b) 1020
+(c) 20
+(d) 5  
+Correct answer is  (d)  
+ 5  
+179.
+ In C, how is the length of a character string determined? 
+ 
+
+(a) The length is stored in the first byte of the string.
+(b) The length is predetermined by the compiler.
+(c) The length is the number of characters preceding a zero.
+(d) The length is stored in the first 4 bytes; the string characters follow this.  
+Correct answer is  (c)  
+ The length is the number of characters preceding a zero.
+180.
+ Given the following declarations, h[] takes 7 bytes and t[] takes 6 bytes. What is the minimum amount of memory (in bytes) required to store the concatenation of h and t? 
+char h[] = "hello ";
+char t[] = "there";
+
+ 
+ 
+
+(a) 11
+(b) 13
+(c) 12
+(d) 14  
+Correct answer is  (c)  
+ 12
+181.
+ In modern computers, each address represents one _____ of memory. 
+ 
+
+(a) word
+(b) byte
+(c) bit
+(d) page  
+Correct answer is  (b)  
+ byte
+182.
+ Which of the following numerical operations is most likely to lead to loss of precision? 
+ 
+
+(a) Integer multiplication
+(b) Integer addition
+(c) Floating-point addition
+(d) Floating-point multiplication  
+Correct answer is  (c)  
+ Floating-point addition
+183.
+ What is the value of the following C expression? 
+0x1234 ^ 0x5432  
+ 
+
+(a) 0x5636
+(b) 0x5434
+(c) 0x4606
+(d) 0x1030  
+Correct answer is  (c)  
+ 0x4606
+184.
+ What is the value of the following C expression? 
+0x1234 | 0x5432  
+ 
+
+(a) 0x5434
+(b) 0x5636
+(c) 0x4606
+(d) 0x1030  
+Correct answer is  (b)  
+ 0x5636
+185.
+ Which of the following explains why it is convenient to use hexadecimal notation when programming? 
+ 
+
+(a) Memory is accessed in 4-bit chunks.
+(b) Hexadecimal digits line up with bit and byte boundaries.
+(c) Hexadecimal can represent larger numbers than decimal.
+(d) Not all computer numbers can be written in decimal form.  
+Correct answer is  (b)  
+ Hexadecimal digits line up with bit and byte boundaries.
+186.
+ How is 46 (decimal) represented in an 8-bit 2's complement binary format? 
+ 
+
+(a) 00101110
+(b) 01000110
+(c) 00011110
+(d) 00101100  
+Correct answer is  (a)  
+ 00101110
+187.
+ In a computer with 4-byte words, which of the following C expressions tests whether ptr contains the address of a word? 
+(ptr & 3) == 0 
+(ptr | 3) == 0 
+(ptr % 4) == 0 
+ 
+ 
+
+(a) II only
+(b) I only
+(c) I and III only
+(d) III only  
+Correct answer is  (c)  
+ I and III only
+188.
+ What happens in a C program when an addition would cause integer overflow? 
+ 
+
+(a) An incorrect result is produced and execution continues.
+(b) Execution is terminated.
+(c) The correct value is coerced to a floating point number.
+(d) An exception-handler is called with the two operands as parameters.  
+Correct answer is  (a)  
+ An incorrect result is produced and execution continues.
+189.
+ How is -10 (decimal) represented in an 8-bit 2's complement binary format? 
+ 
+
+(a) 11110110
+(b) 11111010
+(c) 11110101
+(d) 10001010  
+Correct answer is  (a)  
+ 11110110
+190.
+ Why is the mantissa of a floating point number shifted left as far as possible? 
+ 
+
+(a) to avoid overflow
+(b) to align bit positions, simplifying addition
+(c) to avoid underflow
+(d) to retain as much precision as possible  
+Correct answer is  (d)  
+ to retain as much precision as possible  
+191.
+ Which of the following statements about floating-point numbers in C is true? 
+Floating-point numbers are often only approximations of real numbers. 
+A 32-bit float only approximates decimal fractions, but a 64-bit double represents them exactly. 
+Floating-point numbers can represent any rational real number but not irrationals. 
+ 
+ 
+
+(a) I and II only
+(b) I and III only
+(c) II only
+(d) I only  
+Correct answer is  (d)  
+ I only  
+192.
+ In C, using default floating point settings, what happens when a floating-point computation results in an overflow? 
+ 
+
+(a) An exception is raised unless disabled by calling _controlfp().
+(b) A special value "infinity" is computed, testable with _finite().
+(c) An erroneous value is computed and execution continues.
+(d) Program execution is halted.  
+Correct answer is  (b)  
+ A special value "infinity" is computed, testable with _finite().
+193.
+ Which of the following statements about alignment within C struct's is true? 
+Alignment may cause the allocation of unused space. 
+Alignment is required by all modern processors. 
+Alignment can help processors access data more efficiently. 
+ 
+ 
+
+(a) II and III only
+(b) I and III only
+(c) I, II, and III
+(d) I only  
+Correct answer is  (b)  
+ I and III only
+194.
+ In C, assuming that an int takes 4 bytes, and an int array a is at location 0x10000, what is the address of a[5]? 
+ 
+
+(a) 0x10005
+(b) The address stored 20 bytes above location 0x10000.
+(c) 0x10020
+(d) 0x10014  
+Correct answer is  (d)  
+ 0x10014  
+195.
+ Given the address of a C struct at runtime, how is the address of a member element in the struct determined? 
+ 
+
+(a) The struct consists of an array of pointers to the elements of the struct.
+(b) The element name is looked up in a symbol table.
+(c) A linear search is made from the base address of the struct.
+(d) A constant offset associated with the member is added to the address.  
+Correct answer is  (d)  
+ A constant offset associated with the member is added to the address.  
+196.
+ Given the following declaration and initialization of s, what is the value of the expression s[6]? 
+char s[] = "string";  
+ 
+
+(a) '\n'
+(b) 'g'
+(c) an unpredictable value
+(d) '\0'  
+Correct answer is  (d)  
+ '\0'  
+197.
+ How many bytes are allocated by the following C declaration and initialization? 
+char s[] = "quiz";  
+ 
+
+(a) 5
+(b) 16
+(c) 4
+(d) 20  
+Correct answer is  (a)  
+ 5
+198.
+ In C, assuming that an int takes 4 bytes, if array a is declared as follows and a has the value 0x10000, what is the value of the expression a + 2? 
+int a[12];  
+ 
+
+(a) 0x10002
+(b) 0x10004
+(c) 8 plus the contents of location 0x10000
+(d) 0x10008  
+Correct answer is  (d)  
+ 0x10008  
+199.
+ Which of the following are true about statically allocated data in C programs? 
+Its location is chosen by the compiler. 
+Its location may change during execution if more memory is required. 
+Its location is not known directly but can be found in a static symbol table. 
+ 
+ 
+
+(a) I and II only.
+(b) II and III only.
+(c) III only.
+(d) I only.  
+Correct answer is  (d)  
+ I only.  
+200.
+ In C, local variables allocated inside functions are allocated 
+ 
+
+(a) on the stack
+(b) in a fifo
+(c) in the heap
+(d) in static storage  
+Correct answer is  (a)  
+ on the stack
+201.
+ In C, how are local variables found at run-time? 
+ 
+
+(a) The variables are stored at a fixed offset from the program counter.
+(b) The variables are located at fixed offsets from a frame pointer.
+(c) The programmer keeps pointers to their location on the heap.
+(d) The variables are always stored at the same address, determined by the linker.  
+Correct answer is  (b)  
+ The variables are located at fixed offsets from a frame pointer.
+202.
+ Suppose a compiler uses static storage to store all variables, function parameters, saved registers, and return addresses. Which of the following language features can this compiler support? 
+Local variables. 
+Function calls. 
+Recursion. 
+ 
+ 
+
+(a) I only
+(b) I, II, and III
+(c) II only
+(d) I and II only  
+Correct answer is  (d)  
+ I and II only  
+203.
+ The key feature of implicit memory management is that memory is freed automatically. Which of the following features of C make(s) it difficult to add support for implicit memory management in C? 
+Pointers are not always initialized. 
+Type casting makes it impossible to know when a value could be a pointer. 
+C programs can allocate memory at runtime. 
+ 
+ 
+
+(a) I only
+(b) III only
+(c) I and II only
+(d) II only  
+Correct answer is  (c)  
+ I and II only
+204.
+ What properties of a variable are specified by the static keyword in C? 
+The variable will be statically allocated. 
+The variable name will be visible only to functions defined within the same file. 
+The variable's value does not change very often. The compiler uses this fact to focus optimizations on other variables. 
+ 
+ 
+
+(a) III only
+(b) I and II only.
+(c) I and III only.
+(d) I only  
+Correct answer is  (b)  
+ I and II only.
+205.
+ Which of the following features apply to standard heap allocation in C? 
+The size of heap objects must be known at compile time. 
+Heap memory must be explicitly allocated. 
+Heap memory is deallocated when a function returns. 
+ 
+ 
+
+(a) I and II only.
+(b) I only.
+(c) II only.
+(d) I and III.  
+Correct answer is  (c)  
+ II only.
+206.
+ In C, calloc() differs from malloc() in that calloc() 
+ 
+
+(a) is faster.
+(b) detects memory allocation errors.
+(c) sets the contents of the block to zero before returning.
+(d) allocates additional memory from the stack.  
+Correct answer is  (c)  
+ sets the contents of the block to zero before returning.
+207.
+ The unary & operator returns 
+ 
+
+(a) the address of a data object.
+(b) the operand unaltered.
+(c) the contents of memory at a given address.
+(d) the logical "and" of two integer operands.  
+Correct answer is  (a)  
+ the address of a data object.
+208.
+ The C expression a->b is equivalent to 
+ 
+
+(a) *(a + b)
+(b) (&a).b
+(c) (&a) + b
+(d) (*a).b  
+Correct answer is  (d)  
+ (*a).b  
+209.
+ In C, to allocate an array of 100 longs on the heap you should write 
+ 
+
+(a) long *a = (long *) malloc(100 * sizeof(long));
+(b) long a[] = (long *) malloc(100);
+(c) long *a = (long *) malloc(100);
+(d) long a[100] = (long *) malloc(sizeof(a));  
+Correct answer is  (a)  
+ long *a = (long *) malloc(100 * sizeof(long));
+210.
+ Why is it wrong to return the address of a local variable? 
+ 
+
+(a) The variable address is invalid after the return.
+(b) It allows illegal access to the variable from arbitrary functions.
+(c) It is faster to return the value of the variable.
+(d) The local variable may be in a machine register.  
+Correct answer is  (a)  
+ The variable address is invalid after the return.
+211.
+ Consider the following fragment of C code. 
+int *p = (int *) calloc(100);
+int *q = p;
+free(p);
+
+Immediately after executing it, which of the following are true about p and q? 
+p and q are identical pointers to freed storage. 
+p points to freed storage, and q points to an allocated block of size 100. 
+p should not be free()d again, but invoking free(q) is all right. 
+ 
+ 
+
+(a) II and III only
+(b) III only
+(c) I only
+(d) II only  
+Correct answer is  (c)  
+ I only
+212.
+ In C, when a struct is freed, 
+ 
+
+(a) no pointers within the struct are freed automatically.
+(b) a destructor function is called automatically to clean up.
+(c) only those pointers within the struct that point into the heap are freed automatically.
+(d) any pointers within the struct are also freed automatically.  
+Correct answer is  (a)  
+ no pointers within the struct are freed automatically.
+213.
+ A memory leak is caused by a 
+ 
+
+(a) bug in which too much memory is allocated, causing internal fragmentation
+(b) failure to free allocated memory
+(c) function that allocates a large amount of memory from the heap
+(d) bug in the memory allocator that fails to free memory  
+Correct answer is  (b)  
+ failure to free allocated memory
+214.
+ In C, which of the following is the best way to detect when a pointer is freed twice? 
+ 
+
+(a) Keep a log of addresses that have been freed and scan the log before calling free().
+(b) Flag all blocks as free or not, and check the flag when calling free().
+(c) Set pointers to NULL after freeing them.
+(d) Modify free() to set the freed data to zero.  
+Correct answer is  (b)  
+ Flag all blocks as free or not, and check the flag when calling free().
+215.
+ Reference counts used in implementations of garbage collectors count 
+ 
+
+(a) the number of pointers pointing to a block.
+(b) the number of times a datum has been referenced inside each block.
+(c) the number of times a block has been accessed.
+(d) the number of times a block has been allocated.  
+Correct answer is  (a)  
+ the number of pointers pointing to a block.
+216.
+ What is the value of an uninitialized pointer variable declared within a function? 
+ 
+
+(a) 0 (or NULL)
+(b) its last value from the previous call to the function
+(c) the value is undefined
+(d) 0xDEADBEEF  
+Correct answer is  (c)  
+ the value is undefined
+217.
+ In this sequence of C statements 
+long a[10];
+ptr = a + 5;
+*ptr++ = x;
+
+the last line could be rewritten as 
+ 
+
+(a) a[6] = x;
+(b) a[5] = x; ptr = ptr + 1;
+(c) ptr = x; *ptr++;
+(d) ptr = ptr + 1; *ptr = x;  
+Correct answer is  (b)  
+ a[5] = x; ptr = ptr + 1;
+218.
+ To resolve memory leaks in C, one common approach is 
+ 
+
+(a) to add padding before and after allocated memory blocks and to fill that memory with a known value.
+(b) to ensure that memory blocks are allocated only on word boundaries.
+(c) to check whether the number of calls to malloc() is greater than the number of calls to free().
+(d) to store the source code line whence each block is allocated.  
+Correct answer is  (d)  
+ to store the source code line whence each block is allocated.  
+219.
+ Which of the following approaches towards optimizing programs is most advisable? 
+ 
+
+(a) Optimize main() first.
+(b) Optimize after all functions are written and debugged.
+(c) "Optimize as you go": make sure every function is optimized before writing the next one.
+(d) Optimize the more complex functions first.  
+Correct answer is  (b)  
+ Optimize after all functions are written and debugged.
+220.
+ "Wall time" measures 
+ 
+
+(a) the total duration of a program's execution.
+(b) idle time.
+(c) the time a program spends waiting for input and output.
+(d) the user time plus the system time.  
+Correct answer is  (a)  
+ the total duration of a program's execution.
+221.
+ "CPU time" measures 
+ 
+
+(a) the percentage utilization of the CPU by the system.
+(b) the time spent executing system functions.
+(c) the time spent by a program executing program instructions.
+(d) wall time  
+Correct answer is  (c)  
+ the time spent by a program executing program instructions.
+222.
+ Which of the following are advantages of using statistical sampling to profile programs? 
+Exact run times of all functions can be determined. 
+Code can be instrumented automatically. 
+The performance impact due to measurement can be minimal. 
+ 
+ 
+
+(a) I, II, and III
+(b) I and III only
+(c) I and II only
+(d) II and III only  
+Correct answer is  (d)  
+ II and III only  
+223.
+ Which of the following are useful for observing program performance? 
+Direct measurement with a stopwatch. 
+Statistical Sampling. 
+System Monitors 
+ 
+ 
+
+(a) I and II only
+(b) I and III only
+(c) II and III only
+(d) I, II, and III  
+Correct answer is  (d)  
+ I, II, and III  
+224.
+ Which of the following is likely to offer the best performance improvement for programs that spend 50% of their time comparing strings? 
+ 
+
+(a) Call a library function for string comparison.
+(b) Write in-line code for string comparison to eliminate a procedure call.
+(c) Store strings uniquely so that pointer comparison can be used.
+(d) Be sure to use hardware string-comparison instructions.  
+Correct answer is  (c)  
+ Store strings uniquely so that pointer comparison can be used.
+225.
+ Amdahl's law, applied to program optimization, says that 
+ 
+
+(a) algorithmic design is more important than code quality for performance
+(b) program measurement is a prerequisite to optimization
+(c) each optimization about doubles a program's performance
+(d) successive program optimizations tend to produce diminishing returns  
+Correct answer is  (d)  
+ successive program optimizations tend to produce diminishing returns  
+226.
+ In C and C++, which of the following functions allocate memory from the heap? 
+printf() 
+creating a new Standard Template Library string 
+cout << "Hello World" 
+ 
+ 
+
+(a) I and II only.
+(b) II and III only.
+(c) II only.
+(d) I only.  
+Correct answer is  (a)  
+ I and II only.
+227.
+ A memory pool is a large block of memory from which small objects are allocated piecemeal by breaking them off from the pool as required. Under which of the following conditions would such a scheme result in greatly improved performance? 
+All objects allocated from the pool are freed at around the same time. 
+All objects allocated from the pool are of similar sizes. 
+A garbage collector takes care of freeing memory. 
+ 
+ 
+
+(a) III only.
+(b) II only.
+(c) I only.
+(d) I and II only.  
+Correct answer is  (c)  
+ I only.
+228.
+ To quickly allocate and free many variables of a commonly used data type, we could 
+ 
+
+(a) minimize the size of the data type.
+(b) coalesce blocks when they are freed.
+(c) use sizes which are powers of two.
+(d) keep a linked list of free objects of that type's size.  
+Correct answer is  (d)  
+ keep a linked list of free objects of that type's size.  
+229.
+ A memory hierarchy 
+ 
+
+(a) limits programs' size but allows them to execute more quickly.
+(b) makes programs execute more slowly but allows them to be bigger.
+(c) is a way of structuring memory allocation decisions.
+(d) takes advantage of the speed of SRAM and the capacity of disk.  
+Correct answer is  (d)  
+ takes advantage of the speed of SRAM and the capacity of disk.  
+230.
+ Which of the following is necessarily true regarding the following code fragment? 
+a = b;
+c = d;
+if (e == 1) return;
+
+ 
+ 
+
+(a) It exhibits no locality of reference.
+(b) It exhibits locality of reference because the variables are allocated near each other.
+(c) It exhibits locality of reference but only when a == b.
+(d) It exhibits locality of reference no matter where the variables are allocated.  
+Correct answer is  (d)  
+ It exhibits locality of reference no matter where the variables are allocated.  
+231.
+ The 200MHz intel-based processor of a computer with no cache is upgraded to a 500 MHz version of the same processor. On the average, programs now run 
+ 
+
+(a) about 150% faster.
+(b) at about the same speed.
+(c) about 100% faster (about 1/3 of the memory accesses are instruction fetches).
+(d) faster on the internet than off it.  
+Correct answer is  (b)  
+ at about the same speed.
+232.
+ A certain program is found to execute with a cache hit ratio of 0.90 on computer A, and of 0.95 on computer B. However, because of other design parameters of these computers, its wall time is the same in both A and B. Then, a clever programmer finds a way to improve the locality of the program, so that it now executes with a hit ratio of 0.92 on A, and of 0.97 on B. Which of the following statements is valid? 
+ 
+
+(a) It is impossible to change the hit ratio of a program.
+(b) The wall time is now greater on B than on A.
+(c) The wall time is still the same on A and B, though it is smaller than before on both of them.
+(d) The wall time is now smaller on B than on A.  
+Correct answer is  (d)  
+ The wall time is now smaller on B than on A.  
+233.
+ Which of the following manages the transfer of data between the CPU registers and the cache? 
+ 
+
+(a) Operating System.
+(b) Registry.
+(c) Hardware.
+(d) Compiler.  
+Correct answer is  (d)  
+ Compiler.  
+234.
+ Which of the following levels of a typical memory hierarchy transfers data in chunks of smallest size? 
+ 
+
+(a) CPU registers <--> cache.
+(b) main memory <--> disk.
+(c) cache <--> main memory.
+(d) they all transfer one byte at a time.  
+Correct answer is  (a)  
+ CPU registers <--> cache.
+235.
+ Current technology trends suggest that the need for memory hierarchies 
+ 
+
+(a) will disappear once DRAM speeds improve.
+(b) will disappear when "broadband" communications start delivering data over the internet at speeds greater than 1Mbps.
+(c) will never disappear.
+(d) will disappear once processors reach clock frequencies greater than about 1000MHz.  
+Correct answer is  (c)  
+ will never disappear.
+236.
+ Your computer has 32-bit integers and a direct cache containing 128 32-byte cache lines. In the following code fragment, the compiler allocates a at address 0x800000 and b at address 0x801000. Before the execution of the code fragment, the arrays a and b have never been used, so they are not in the cache. What is the minimum number of bytes from each of the arrays a and b that could be fetched into the cache from main memory, during the execution of the code? 
+int b[1024];
+int a[1024];
+for (i = 0; i < 17; sum += a[i] + b[i], i++);
+
+ 
+ 
+
+(a) 1088
+(b) 68
+(c) 17
+(d) 96  
+Correct answer is  (a)  
+ 1088
+237.
+ Which facts about the cache can be determined by calling the following function? 
+int data[1 << 20];
+void callee(int x) {
+    int i, result;
+    for (i = 0; i < (1 << 20); i += x) {
+    result += data[i];
+    }
+}
+
+cache line size 
+cache size 
+cache speed 
+ 
+ 
+
+(a) I and III only
+(b) I and II only
+(c) I, II, and III
+(d) I only  
+Correct answer is  (d)  
+ I only  
+238.
+ Consider the following fragments from two versions of a program.  Version A Version B 
+ for (i = 0 ; i < N ; i++ ) {
+    Read(i);
+    Calculate(i);
+    Write(i);
+}
+
+ for (i = 0 ; i < N ; i++ ) {
+    Read(i);
+}
+for (i = 0 ; i < N ; i++ ) {
+    Calculate(i);
+}
+for (i = 0 ; i < N ; i++ ) {
+    Write(i);
+}
+}
+
+ 
+Which of the following are true of version B, compared to version A? 
+B may be faster because of cache effects. 
+B may be slower because of cache effects. 
+B may execute at essentially the same speed as A. 
+ 
+ 
+
+(a) II and III only
+(b) I, II, and III
+(c) I only
+(d) I and III only  
+Correct answer is  (b)  
+ I, II, and III
+239.
+ A program whose code and data together occupy fewer than 256 Kbytes is executed on a computer with a 512 Kbyte direct cache. Which of the following is true? 
+ 
+
+(a) Every instruction fetch will cause a cache miss.
+(b) No bytes will be fetched from main memory
+(c) There is no telling, from the information given, how many bytes will be fetched from main memory.
+(d) Some bytes, but at most 256 Kbytes, will be fetched from main memory.  
+Correct answer is  (c)  
+ There is no telling, from the information given, how many bytes will be fetched from main memory.
+240.
+ A program cannot accidentally "crash" a computer that uses 
+virtual memory addresses 
+program relocation 
+separate instruction and data caches. 
+ 
+ 
+
+(a) I only
+(b) II and III only
+(c) I and II only
+(d) III only  
+Correct answer is  (a)  
+ I only
+241.
+ Two variables of a program are found to be allocated to virtual addresses 0x800000 and 0xA00000 respectively. The program is then executed on a computer that uses paged virtual memory with a page size of 8 KB (0x2000 B). Which of the following are necessarily true? 
+The program occupies more than 256 pages of physical memory. 
+The program occupies more than 2 MB of physical memory. 
+The program occupies more than 10 MB of physical memory. 
+ 
+ 
+
+(a) III only
+(b) I, II, and III
+(c) None
+(d) I and II only  
+Correct answer is  (c)  
+ None
+242.
+ Which of the following are effects of a page fault in a program? Assume that the page fault is caused by the program by reading the value of a variable that belongs to the program, and that the variable is in an unmapped page. 
+A hardware exception is thrown and handled by the operating system. 
+A delay occurs. 
+An exception is thrown that should be handled by the program's source code or the program will terminate. 
+ 
+ 
+
+(a) I and II only
+(b) II only
+(c) II and III only
+(d) I and III only  
+Correct answer is  (a)  
+ I and II only
+243.
+ The working set of a program is formed by 
+ 
+
+(a) the libraries required by the program
+(b) the pages that the program is actively using
+(c) the memory of the program that is currently in physical memory
+(d) all the files the program needs to execute  
+Correct answer is  (b)  
+ the pages that the program is actively using
+244.
+ Which of the following is a shortcoming (are shortcomings) of segmented virtual memory, compared to paged virtual memory? 
+It causes external fragmentation. 
+It causes internal fragmentation. 
+It requires program relocation. 
+ 
+ 
+
+(a) I only
+(b) II only
+(c) II and III only
+(d) I and III only  
+Correct answer is  (a)  
+ I only
+245.
+ Time-sharing occurs when 
+ 
+
+(a) clocks are properly synchronized in a network of computers.
+(b) there is not enough memory to run all the applications that have been started.
+(c) more than one program executes concurrently on a single computer.
+(d) one program must terminate before the next program can run.  
+Correct answer is  (c)  
+ more than one program executes concurrently on a single computer.
+246.
+ To restrict access to an input/output device in a time-shared system, a program has to 
+ 
+
+(a) make a system call through a trap instruction.
+(b) present the addresses of the device registers to the operating system.
+(c) execute special I/O instructions in the application's address space.
+(d) map the device control registers into the application's address space.  
+Correct answer is  (a)  
+ make a system call through a trap instruction.
+247.
+ Polling is undesirable in a time-shared operating system because 
+ 
+
+(a) it is too complicated to implement
+(b) it wastes time that could be used to do useful work.
+(c) it leads to interference between two applications accessing the same resource.
+(d) it makes programs much larger.  
+Correct answer is  (b)  
+ it wastes time that could be used to do useful work.
+248.
+ A context switch occurs when 
+ 
+
+(a) an operating system goes into standby mode.
+(b) a modal dialog box is created.
+(c) the system starts executing a different process.
+(d) a new stack frame (activation record) is created.  
+Correct answer is  (c)  
+ the system starts executing a different process.
+249.
+ When a context switch occurs, 
+ 
+
+(a) the cache contents must be saved along with the processor registers.
+(b) the contents of the cache are vital for performance.
+(c) the contents of the cache are mostly irrelevant.
+(d) the cache must be disabled.  
+Correct answer is  (c)  
+ the contents of the cache are mostly irrelevant.
+250.
+ In modern operating systems, the malicious behavior of one program should not have any harmful effects on other programs. Which of the following mechanisms support(s) this kind of protection? 
+Separate address spaces for each application process 
+Preemptive scheduling administered by the operating system 
+Free access to input/output device so that they cannot be hoarded 
+ 
+ 
+
+(a) I and III only
+(b) I only
+(c) I and II only
+(d) I, II, and III  
+Correct answer is  (c)  
+ I and II only
+251.
+ When selecting which of many ready-to-run processes will run at any given time, an operating system is said to be 
+ 
+
+(a) carrying out a state transition
+(b) context switching
+(c) handling an interrupt.
+(d) scheduling  
+Correct answer is  (d)  
+ scheduling  
+252.
+ Which of these are properties of threads? 
+Only processes with special privileges can create threads. 
+Threads eliminate the need to change address spaces in a context switch between threads of the same process. 
+Threads share memory. 
+ 
+ 
+
+(a) II and III only
+(b) I and III only
+(c) I, II, and III
+(d) II only  
+Correct answer is  (a)  
+ II and III only
+253.
+ In a real-time application, a time-critical task should be performed by 
+ 
+
+(a) the next available thread.
+(b) a high-priority thread.
+(c) a set of concurrent threads.
+(d) a low-priority thread.  
+Correct answer is  (b)  
+ a high-priority thread.
+254.
+ A reentrant function can be entered 
+ 
+
+(a) at several points, not only the top
+(b) multiple times but only by one thread at a time
+(c) concurrently by more than one thread
+(d) only once before variables are reinitialized  
+Correct answer is  (c)  
+ concurrently by more than one thread
+255.
+ A lock is a software mechanism that 
+ 
+
+(a) limits access to a critical section.
+(b) prevents execution except in debug mode.
+(c) temporarily makes memory read-only.
+(d) implements password protection to data.  
+Correct answer is  (a)  
+ limits access to a critical section.
+256.
+ Priority inversion is a situation in which 
+ 
+
+(a) the scheduler reverses priorities to prevent starvation of low-priority threads.
+(b) a high-priority thread indirectly waits on a lower priority thread.
+(c) long-running processes are assigned lower priorities.
+(d) threads with the earliest deadlines receive higher priorities.  
+Correct answer is  (b)  
+ a high-priority thread indirectly waits on a lower priority thread.
+257.
+ A critical section is often implemented by 
+ 
+
+(a) surrounding the code with a lock/unlock pair.
+(b) bailing out of a thread.
+(c) using a separate thread of control.
+(d) using a high-priority thread.  
+Correct answer is  (a)  
+ surrounding the code with a lock/unlock pair.
+258.
+ For which of the following applications are threads well suited? 
+Background processing such as data compression or spell-checking 
+Displaying a web page on the screen before it has fully arrived from the server 
+Fetching a page of a web document while the user scrolls through the previous one 
+ 
+ 
+
+(a) I only
+(b) I and II only
+(c) I, II, and III
+(d) II only  
+Correct answer is  (c)  
+ I, II, and III
+259.
+ Which of these are properties of threads? 
+Only processes with special privileges can create threads. 
+Threads eliminate the need to change address spaces in a context switch. 
+Threads share memory. 
+ 
+ 
+
+(a) I and III only
+(b) II and III only
+(c) II only
+(d) I, II, and III  
+Correct answer is  (b)  
+ II and III only
+260.
+ Threads differ from processes in that threads 
+ 
+
+(a) share a single virtual address space.
+(b) cannot be preempted.
+(c) cannot make system calls.
+(d) exist only in the operating system kernel.  
+Correct answer is  (a)  
+ share a single virtual address space.
+261.
+ In C, assuming that an int takes 4 bytes, and array a is at location 0x10000, what is the address of a[5]? 
+ 
+
+(a) 0x10014
+(b) 0x10020
+(c) 0x10005
+(d) The address stored 20 bytes above location 0x10000.  
+Correct answer is  (a)  
+ 0x10014
+262.
+ In C, assuming that an int takes 4 bytes, how many bytes are required to represent the following array? 
+int a[12];  
+ 
+
+(a) 52
+(b) 44
+(c) 48
+(d) 12  
+Correct answer is  (c)  
+ 48
+263.
+ A garbage collector 
+ 
+
+(a) frees all memory blocks that will not be accessed in the future.
+(b) removes old versions of local variables from the stack .
+(c) frees memory blocks that cannot be reached by dereferencing pointers.
+(d) frees memory blocks marked as "deleteable".  
+Correct answer is  (c)  
+ frees memory blocks that cannot be reached by dereferencing pointers.
+264.
+ General wisdom, expressed by the 80/20 rule, says that 
+ 
+
+(a) 80% of the execution time is in the user interface, and 20% does the real work
+(b) algorithmic improvements account for the smallest amount of performance gain
+(c) most execution time is spent in a small amount of code
+(d) optimization can obtain between 20 and 80 percent improvement  
+Correct answer is  (c)  
+ most execution time is spent in a small amount of code
+265.
+ Which of the following manages the transfer of data between the cache and main memory? 
+ 
+
+(a) Registry.
+(b) Operating System.
+(c) Hardware.
+(d) Compiler.  
+Correct answer is  (c)  
+ Hardware.
+266.
+ Two computers A and B with a cache in the CPU chip differ only in that A has an L2 cache and B does not. Which of the following are possible? 
+B executes a program more quickly than A. 
+A executes a program more quickly than B. 
+While executing a program, A fetches more data from main memory than does B. 
+ 
+ 
+
+(a) I, II and III.
+(b) II only.
+(c) I and III only.
+(d) I and II only.  
+Correct answer is  (d)  
+ I and II only.  
+267.
+ Which of the following are effects of a page fault in the program that caused it by, e.g, reading the value of a variable? 
+An exception is thrown. 
+A delay occurs. 
+The program is terminated. 
+ 
+ 
+
+(a) II only
+(b) I and II only
+(c) I and III only
+(d) II and III only  
+Correct answer is  (b)  
+ I and II only
+268.
+ When the following code fragment is executed on a computer with 32-bit integers and a fully-associative cache with 32-byte cache lines, how many bytes of the array a will be fetched into the cache from main memory? 
+int a[100];
+for (i = 0; i < 17; sum += a[i], i++);
+
+ 
+ 
+
+(a) at most 96.
+(b) exactly 32.
+(c) at most 68.
+(d) exactly 17.  
+Correct answer is  (a)  
+ at most 96.
+269.
+ 269.
+ 269.
+ 269.
+ 269.
+ 269.
+ 269.
+ 269.
+ 269.
+ 269.
+ 269.
+ 269.
+ 269.
+ 269.
+ 269.
+ When a cache is full and a new cache line needs to be fetched into it, which of the following is a pretty good, practical approach? 
+ 
+
+(a) choosing the cache location currently occupied by the least-recently-used data.
+(b) choosing always the same cache location for the new line.
+(c) denying the memory operation that caused the fetch of the new line.
+(d) randomly selecting a cache location for the new line.  
+Correct answer is  (d)  
+ randomly selecting a cache location for the new line.  
+270.
+ Compared to dynamic RAM (SRAM), disks are 
+more expensive per megabyte. 
+slower per word access. 
+more persistent. 
+ 
+ 
+
+(a) II and III only.
+(b) II only.
+(c) I only.
+(d) I and III only.  
+Correct answer is  (a)  
+ II and III only.
+271.
+ Two variables of a program are found to be allocated to virtual addresses 0x800000 and 0xA00000 respectively. The program is then executed on a computer that uses paged virtual memory with a page size of 8 KB (0x2000 KB). Which of the following are necessarily true? 
+The program occupies more than 256 pages of physical memory. 
+The program occupies more than 2 MB of physical memory. 
+The program occupies more than 10 MB of physical memory. 
+ 
+ 
+
+(a) None
+(b) III only
+(c) I and II only
+(d) I, II, and III  
+Correct answer is  (a)  
+ None
+272.
+ Compared to static RAM (SRAM), dynamic RAM (DRAM) is 
+more expensive per megabyte. 
+slower per word access. 
+more persistent. 
+ 
+ 
+
+(a) II and III only.
+(b) II only.
+(c) I and III only.
+(d) I only.  
+Correct answer is  (b)  
+ II only.
+273.
+ When a cache is full and a new cache line needs to be fetched into it, which of the following is a pretty good, practical approach? 
+ 
+
+(a) choosing the cache location currently occupied by the least-recently-used data.
+(b) choosing always the same cache location for the new line.
+(c) denying the memory operation that caused the fetch of the new line.
+(d) randomly selecting a cache location for the new line.  
+Correct answer is  (d)  
+ randomly selecting a cache location for the new line.  
+274.
+ Consider the following template array-copy function and arrays.
+
+      template<class T>  void  copy( T a[], T b[], int n ) {
+          for(int i = 0; i < n; i++ ) a[i] = b[i];
+      }
+      char   C[10], CC[10];
+      int    I[10];
+      float  F[10];
+
+Which of the following calls to copy would produce a compile time error?
+ 
+ 
+
+(a) copy( I, I, 10 );
+(b) copy( I, (int*)F, 10 );
+(c) copy( C, CC, 10 );
+(d) copy( I, F, 10 );  
+Correct answer is  (d)  
+ copy( I, F, 10 );  
+275.
+ Suppose inf is an available ifstream and c is an available character. Consider the following code fragment.
+do
+    c = inf.get();
+while (!inf.eof() && isspace(c));
+Which of the following accurately describes the effect of executing this fragment?	
+(a) Characters are read until the end of the file is reached.
+(b) The number of non-white-space characters is counted.
+(c) Characters are read until a white space is read.
+(d) Characters are read until a non-white-space character is read or until the end of the file is reached. 
+Correct answer is 	(d) 
+ Characters are read until a non-white-space character is read or until the end of the file is reached. 
+276.
+ Which of the following statements is true about a reference used as a function parameter? 	
+(a) It passes a copy of the object.
+(b) It cannot be used in a function prototype.
+(c) It is not as efficient as using a pointer.
+(d) It allows a function to modify the original object passed in as the argument. 
+Correct answer is 	(d) 
+ It allows a function to modify the original object passed in as the argument. 
+277.
+ What, if anything, is wrong with the following code fragment?
+      Thing  *ptr = new Thing;
+      ptr = NULL;	
+(a) Nothing
+(b) When executed, it will create an instance of Thing and then remove the only reference to this instance without destroying it first.
+(c) When executed, it will create an instance of Thing and then overwrite it with NULL.
+(d) When executed, it will assign a NULL pointer to a variable that is a pointer to a Thing. 
+Correct answer is 	(b) 
+ When executed, it will create an instance of Thing and then remove the only reference to this instance without destroying it first.
+278.
+ The main abstractions of the Standard Template Library include which of the following? 
+
+Iterators 
+Exception handlers 
+Algorithms
+ 
+ 
+
+(a) III only
+(b) I only
+(c) I and II only
+(d) I and III only  
+Correct answer is  (d)  
+ I and III only  
+279.
+ Which of the following statements regarding the design of the Standard Template Library (STL) in C++ is (are) true? 
+
+Each STL algorithm is usable with one specific container. 
+The STL does not use templates and instead relies on polymorphism.
+ 
+ 
+
+(a) II only
+(b) None
+(c) I and II
+(d) I only  
+Correct answer is  (b)  
+ None
+280.
+ Execution of which of the following statements sets an STL iterator it so that it points to the first element of a container A? 
+ 
+
+(a) begin( A, it );
+(b) it = A.begin();
+(c) A.reset( it );
+(d) A.begin( it );  
+Correct answer is  (b)  
+ it = A.begin();
+281.
+ The class vector in the C++ STL contains which of the following methods?
+
+push_back 
+push_front 
+pop_front 
+ 
+ 
+
+(a) II and III only
+(b) I only
+(c) I, II, and III
+(d) I and II only  
+Correct answer is  (b)  
+ I only
+282.
+ The STL deque container contains which of the following methods?
+
+push_back 
+push_front 
+pop_front 
+ 
+ 
+
+(a) I only
+(b) II and III only
+(c) I, II, and III
+(d) III only  
+Correct answer is  (c)  
+ I, II, and III
+283.
+ Consider the following declaration that makes use of a user-defined class Thing.
+
+      vector<Thing>  A(10);
+
+In order that it compile, the class Thing must have which of the following?
+ 
+ 
+
+(a) a destructor
+(b) a copy constructor
+(c) a default constructor
+(d) an assignment operator  
+Correct answer is  (c)  
+ a default constructor
+284.
+ If A is an STL vector, then the effect of executing the statement
+
+    A.push_back( x );
+
+is to
+ 
+ 
+
+(a) append x to A if there is room, and otherwise overwrites the currently last element of A
+(b) append x to A, without checking the size and capacity of A
+(c) append x to A if and only if the size of A is less than capacity of A
+(d) check whether the capacity of A is larger than the size of A, enlarges A if necessary, and append x to A  
+Correct answer is  (d)  
+ check whether the capacity of A is larger than the size of A, enlarges A if necessary, and append x to A  
+285.
+ In STL vectors, _____ refers to the maximum number of items that can be stored without resizing, and _____ refers to the number of items stored. 
+ 
+ 
+
+(a) domain, range
+(b) range, domain
+(c) capacity, size
+(d) size, capacity  
+Correct answer is  (c)  
+ capacity, size
+286.
+ Consider the following C++ program fragment, which is a partial declaration of the class string. 
+
+   class string {
+     public:
+         string(const char* cstring = "");
+         bool operator== (const string & rhs);
+      ...
+   };
+Given this class and two string objects called s1 and s2, which of the following is not a legal statement? 
+ 
+ 
+
+(a) string s3("Hello, World");
+(b) bool ans = (s2 == "hello");
+(c) bool ans = (s1 == s2);
+(d) bool ans = ("hello" == s1);  
+Correct answer is  (d)  
+ bool ans = ("hello" == s1);  
+287.
+ Which of the following statements is (are) true regarding strings in C++? 
+
+Strings in C++ are supported by the standard class string. 
+A constructor for the class string can accept a C-style string as an argument.
+ 
+ 
+
+(a) I and II
+(b) I only
+(c) None
+(d) II only  
+Correct answer is  (a)  
+ I and II
+288.
+ Which of the following data structures is not a container implemented in the C++ Standard Template Library? 
+ 
+ 
+
+(a) Vector
+(b) Hash table
+(c) Stack
+(d) List  
+Correct answer is  (b)  
+ Hash table
+289.
+ Access to ranges of elements in an STL container is typically handled by 
+ 
+
+(a) iterators
+(b) references
+(c) pointers
+(d) suitable access member functions  
+Correct answer is  (a)  
+ iterators
+290.
+ The STL is heavily based on 
+ 
+
+(a) polymorphism
+(b) object oriented programming
+(c) inheritance
+(d) templates  
+Correct answer is  (d)  
+ templates  
+291.
+ Which of the following statements is (are) true of typical implementations of vectors and deques?
+
+A vector's implementation uses one array, whereas a deque's implementation uses multiple arrays. 
+Insertions at the front of a deque tend to be more efficient than insertions at the front of a vector. 
+ 
+ 
+
+(a) II only
+(b) None
+(c) I only
+(d) I and II  
+Correct answer is  (d)  
+ I and II  
+292.
+ A typical implementation of a deque in the C++ STL minimizes the need to copy elements upon the frontal insertion of new items by
+ 
+ 
+
+(a) using a background thread to reallocate memory when necessary
+(b) inserting the element at the next available position in the deque and maintaining a table of element positions
+(c) reserving memory at the front of the deque's stored elements
+(d) inserting the element at the end of the deque and maintaining a table of element positions  
+Correct answer is  (c)  
+ reserving memory at the front of the deque's stored elements
+293.
+ The size of an STL vector is defined to be the 
+ 
+
+(a) total of the sizes of the data members in the vector class
+(b) maximum number of elements that can be stored in the vector without resizing
+(c) number of elements currently stored in the vector
+(d) number of bytes the vector occupies in memory  
+Correct answer is  (c)  
+ number of elements currently stored in the vector
+294.
+ The capacity of an STL vector is defined to be the 
+ 
+
+(a) maximum number of elements that can be stored in the vector without resizing
+(b) difference between the current number of elements and the maximum number of elements
+(c) number of elements currently stored in the vector
+(d) maximum number of elements the vector could possibly have on the given machine  
+Correct answer is  (a)  
+ maximum number of elements that can be stored in the vector without resizing
+295.
+ Consider the following C++ program fragment.
+
+      vector<int>   A(10);
+      A.push_back( 5000 );
+
+At the end of an execution of this fragment, the size of vector A is
+ 
+ 
+
+(a) dependent on machine and compiler
+(b) 11
+(c) 5000
+(d) 10  
+Correct answer is  (b)  
+ 11
+296.
+ Which of the following statements is (are) true regarding C-style strings? 
+
+They are terminated by the null character. 
+Storing a five-character string requires at least seven characters.
+ 
+ 
+
+(a) I and II
+(b) II only
+(c) I only
+(d) None  
+Correct answer is  (c)  
+ I only
+297.
+ For an STL iterator it, execution of the statement
+
+    it--;
+
+does which of the following?
+ 
+ 
+
+(a) Steps the iterator backwards to the previous item.
+(b) Pre-decrements the item to which the iterator points.
+(c) Post-decrements the item to which the iterator points.
+(d) Decreases by 1 the size of the container pointed to by it.  
+Correct answer is  (a)  
+ Steps the iterator backwards to the previous item.
+298.
+ In the STL, common algorithms are instantiated for multiple types of container classes by using _____ to provide a uniform interface between the algorithms and containers. 
+ 
+ 
+
+(a) arrays
+(b) pointers
+(c) iterators
+(d) virtual functions  
+Correct answer is  (c)  
+ iterators
+299.
+ Consider the following program segment.
+
+vector<int>  A(10);
+A.resize(0);
+A.push_back(5000);
+
+At the end of an execution of this fragment, the size of vector A is
+ 
+ 
+
+(a) 1
+(b) 5000
+(c) 10
+(d) 0  
+Correct answer is  (a)  
+ 1
+300.
+ Consider the following C++ program segment, assuming that string is a class. 
+
+   string str1("Hello, World");
+   str1[5] = 'Z';
+The overloaded operator[] function invoked in the above program segment should have which of the following return types? 
+ 
+ 
+
+(a) const char &
+(b) char
+(c) char &
+(d) char *  
+Correct answer is  (c)  
+ char &
+301.
+ A C-style string is stored as an array of characters that ends with _____ character. 
+ 
+ 
+
+(a) a '\n'
+(b) any white-space
+(c) a '\0'
+(d) a '0'  
+Correct answer is  (c)  
+ a '\0'
+302.
+ Consider the following C++ program segment, which uses the STL. 
+
+	
+stack<int,vector<int> > S;
+
+Execution of the statement results in creation of which of the following? 
+ 
+ 
+
+(a) A stack of integer vectors
+(b) A vector of integers
+(c) A vector of integer stacks
+(d) A stack of integers  
+Correct answer is  (d)  
+ A stack of integers  
+303.
+ The queue adapter interface in the C++ Standard Template Library contains which of the following member functions?
+
+push 
+pop_back 
+ 
+ 
+
+(a) I only
+(b) II only
+(c) I and II
+(d) None  
+Correct answer is  (a)  
+ I only
+304.
+ Differences between the STL adapter queue and the STL container deque include which of the following?
+
+queue provides support for iterators, whereas deque does not. 
+queue provides access to only the first and last elements in a collection, whereas deque permits access to an entire collection. 
+ 
+ 
+
+(a) I only
+(b) None
+(c) II only
+(d) I and II  
+Correct answer is  (c)  
+ II only
+305.
+ Which of the following statements is (are) true about stacks? 
+
+Elements are inserted and deleted in last-in-first-out order. 
+Stacks can be implemented using linked lists. 
+Stacks can be implemented using arrays.
+ 
+ 
+
+(a) I and III only
+(b) I, II, and III
+(c) I and II only
+(d) II and III only  
+Correct answer is  (b)  
+ I, II, and III
+306.
+ Which of the following data structures uses a "Last-in, First-out" policy for element insertion and removal? 
+ 
+ 
+
+(a) Stack
+(b) Hash table
+(c) Queue
+(d) Tree  
+Correct answer is  (a)  
+ Stack
+307.
+ Which of the following is not a basic operation that can be performed on a queue? 
+ 
+ 
+
+(a) Accessing an item from the front of the queue
+(b) Removing an item from the front of the queue
+(c) Inserting an item at the back of the queue
+(d) Inserting an item into the second position of the queue  
+Correct answer is  (d)  
+ Inserting an item into the second position of the queue  
+308.
+ One thing that the STL vector and the STL list have in common is that both are 
+ 
+
+(a) sequential containers
+(b) based on arrays of elements
+(c) inherited from the superclass Container
+(d) random access containers  
+Correct answer is  (a)  
+ sequential containers
+309.
+ Execution of the code fragment
+
+    list<int>  A(10);
+
+does which of the following?
+ 
+ 
+
+(a) Creates an empty linked list of ints, but reserves memory for 10 entries
+(b) Creates a linked list of 10 ints, with each element initially 0.
+(c) Creates 10 linked lists of ints, all initially empty.
+(d) Creates a linked list of 10 ints, with each element initially containing random values.  
+Correct answer is  (b)  
+ Creates a linked list of 10 ints, with each element initially 0.
+310.
+ 310.
+ To indicate the end of the list, the final node in a typical singly-linked list stores _____ in place of a _____.
+ 
+ 
+
+(a) its own address, pointer to the next node
+(b) a null pointer, pointer to the next node
+(c) a null pointer, pointer to the previous node
+(d) its own address, pointer to the previous node  
+Correct answer is  (b)  
+ a null pointer, pointer to the next node
+311.
+ Which of the following operations is (are) typically more efficient in a linked list than in a vector? 
+
+Removal of the first element 
+Random element access
+ 
+ 
+
+(a) I and II
+(b) II only
+(c) I only
+(d) None  
+Correct answer is  (c)  
+ I only
+312.
+ Consider the following C++ program segment, which uses the STL. 
+
+	
+stack<int,list<int> > S;
+
+Execution of the statement results in creation of which of the following? 
+ 
+ 
+
+(a) A stack of integer lists
+(b) A list of integer stacks
+(c) A stack of integers
+(d) A list of integers  
+Correct answer is  (c)  
+ A stack of integers
+313.
+ Which of the following operations typically removes an item from a stack? 
+ 
+ 
+
+(a) top
+(b) empty
+(c) pop
+(d) push  
+Correct answer is  (c)  
+ pop
+314.
+ Which of the following linear data structures use a first-in, first-out element insertion and removal policy?
+
+Stacks 
+Queues 
+ 
+ 
+
+(a) I only
+(b) None
+(c) II only
+(d) I and II  
+Correct answer is  (c)  
+ II only
+315.
+ Consider the execution of the following.
+
+    list<int>  A(10,20);
+
+Which of the following accurately describes what is created?
+ 
+ 
+
+(a) An array of size 20 of linked list, each containing 20 ints
+(b) a linked list of 10 linked lists, each containing 20 ints
+(c) A linked list of size 10, each containing 10 arrays of ints of size 20
+(d) A linked list of 10 ints, with each element initially 20  
+Correct answer is  (d)  
+ A linked list of 10 ints, with each element initially 20  
+316.
+ To access an element in a singly linked list, a program must 
+ 
+ 
+
+(a) allocate memory for temporary nodes
+(b) compute a hash value for the element
+(c) traverse all nodes in the list prior to that element
+(d) add the element's index to the memory address of the first element in the list  
+Correct answer is  (c)  
+ traverse all nodes in the list prior to that element
+317.
+ Which of the following statements is (are) true about the locations of a linked list's nodes in memory?
+
+Nodes must appear at a fixed distance from one another in memory. 
+The order of elements in a list must match the order of the list's nodes in memory. 
+ 
+ 
+
+(a) I and II
+(b) II only
+(c) I only
+(d) None  
+Correct answer is  (d)  
+ None  
+318.
+ Consider the following C++ program segment, which uses the STL. 
+
+stack<int> X;
+X.push(2);
+X.push(14);
+X.pop();
+X.push(37);
+X.push(40);
+X.pop();
+cout << X.top();
+What is the output when this program segment is executed? 
+ 
+ 
+
+(a) 40
+(b) 37
+(c) 2
+(d) 14  
+Correct answer is  (b)  
+ 37
+319.
+ In C++, calling the method empty for the STL adapter queue returns
+ 
+ 
+
+(a) the front of the queue if the queue is not empty
+(b) true if the queue contains no elements
+(c) an empty queue
+(d) all elements in the queue  
+Correct answer is  (b)  
+ true if the queue contains no elements
+320.
+ Which of the following is (are) typically managed using a stack? 
+
+Implementation of function calls in a procedural programming language 
+Evaluating arithmetic expressions, taking precedence rules into account 
+Handling jobs sent to a printer, and ensuring that the first jobs to be submitted are printed first
+ 
+ 
+
+(a) II only
+(b) I and III only
+(c) I and II only
+(d) I, II, and III  
+Correct answer is  (c)  
+ I and II only
+321.
+ In the C++ standard template library (STL), which of the following is a property of const iterators for the list container?
+ 
+ 
+
+(a) They provide read-only access to a linked list.
+(b) Const iterators can be incremented, but never decremented.
+(c) They cannot be used to traverse a linked list.
+(d) They provide write-only access to a linked list.  
+Correct answer is  (a)  
+ They provide read-only access to a linked list.
+322.
+ The nodes of a _____ linked list can be traversed _____.
+ 
+ 
+
+(a) doubly, backward only
+(b) singly, forward and backward
+(c) doubly, forward only
+(d) singly, forward only  
+Correct answer is  (d)  
+ singly, forward only  
+323.
+ Which of the following is (are) typically true about linked lists?
+
+Objects in a linked list are stored contiguously in memory. 
+All elements in a list are copied to new locations in memory upon frontal insertions to the list. 
+ 
+ 
+
+(a) None
+(b) I and II
+(c) II only
+(d) I only  
+Correct answer is  (a)  
+ None
+324.
+ Consider the following C++ program segment, which uses the STL. 
+
+	
+stack<int> S;
+S.push(123);
+S.push(456);
+cout << S.pop() << endl;
+
+Which of the following accurately describes what, if anything, fails in the segment? 
+ 
+ 
+
+(a) Nothing is wrong with the segment.
+(b) An execution error occurs because pop is a private member function.
+(c) An execution error occurs because an STL stack has no member function pop.
+(d) A compilation error occurs because pop does not return a value.  
+Correct answer is  (d)  
+ A compilation error occurs because pop does not return a value.  
+325.
+ In the C++ Standard Template Library (STL), the class queue is _____ that uses _____ for storage. 
+ 
+ 
+
+(a) a sequence container, a C-style array
+(b) a sequence container, an adapter class
+(c) an adapter, a C-style array
+(d) an adapter, a sequence container  
+Correct answer is  (d)  
+ an adapter, a sequence container  
+326.
+ In order to use the adapter queue from the C++ Standard Template Library, which of the following preprocessor directives is (are) typically required?
+
+#include <queue> 
+#include <deque> 
+ 
+ 
+
+(a) II only
+(b) I and II
+(c) I only
+(d) None  
+Correct answer is  (c)  
+ I only
+327.
+ Consider the following sequence of operations applied to an empty queue:
+
+Insert element with value 3 
+Insert element with value 8
+Remove element
+Insert element with value 1
+Remove element
+Insert element with value 7
+
+The next element removed from this queue will have which of the following values?
+ 
+ 
+
+(a) 3
+(b) 8
+(c) 7
+(d) 1  
+Correct answer is  (d)  
+ 1  
+328.
+ A singly linked list is a linked list in which 
+ 
+ 
+
+(a) a single use of the operator new allocates memory for the list
+(b) elements can contain duplicate values
+(c) elements must contain unique values
+(d) each node contains a pointer to only one other node  
+Correct answer is  (d)  
+ each node contains a pointer to only one other node  
+329.
+ An STL adapter provides
+ 
+ 
+
+(a) a network-socket interface to an STL container
+(b) a new programming interface for an existing STL container
+(c) a pointer to an instance of an STL container
+(d) a wrapper that allows an STL container to be used by the Java programming language  
+Correct answer is  (b)  
+ a new programming interface for an existing STL container
+330.
+ Consider the following code fragment, where L is a linked list of integers.
+
+      for( it = L.begin(); it != L.end(); ++it )
+        *it += 10;
+
+Execution of this fragment has the effect of
+ 
+ 
+
+(a) adding 10 to each list element
+(b) stepping through the lists in increments of 10
+(c) appending 10 to the list
+(d) inserting a new element 10 after each list element  
+Correct answer is  (a)  
+ adding 10 to each list element
+331.
+ Which of the following is the main reason for using recursion? 
+ 
+
+(a) To obtain short, elegant solutions
+(b) To avoid templates and inheritance
+(c) To improve efficiency
+(d) To use less memory  
+Correct answer is  (a)  
+ To obtain short, elegant solutions
+332.
+ Consider the following definition of a recursive function ff.
+
+      int  ff( int n )
+      {
+          if( n == 0 ) return 1;
+          return  2 * ff( n - 1 );
+      }
+
+If n > 0, what is returned by ff( n )?
+ 
+ 
+
+(a) 2n
+(b) 2 * n
+(c) log2 n
+(d) n2  
+Correct answer is  (a)  
+ 2n
+333.
+ Consider the function defined as follows.
+
+      int  f( int n )
+      {
+          if( n == 0 ) return 0;
+          if( (n & 1) == 0 ) return f(n/2);
+          return f(n/2) + 1;
+      }
+
+The value returned by the call f( 10 ); is
+ 
+ 
+
+(a) 1
+(b) 2
+(c) 3
+(d) 5  
+Correct answer is  (b)  
+ 2
+334.
+ What would be the consequences for algorithms if recursion were removed from C++? 
+ 
+
+(a) All algorithms could still be implemented, but the efficiency would often be catastrophically worse.
+(b) All algorithms could still be implemented, but often less elegantly.
+(c) Some algorithms could no longer be implemented.
+(d) None  
+Correct answer is  (b)  
+ All algorithms could still be implemented, but often less elegantly.
+335.
+ Consider the following definition of a recursive function ff in C++. 
+
+int  ff( int n, int m )
+{
+    if( n == 0 ) return m;
+    return  ff( n - 1, m + 1 );
+}
+Which of the following characterizes the value returned by the call f(n,m)? 
+ 
+ 
+
+(a) The greatest common divisor of m and n
+(b) The least common multiple of m and n
+(c) The sum of m and n
+(d) The product of m and n  
+Correct answer is  (c)  
+ The sum of m and n
+336.
+ Consider the following definition of a recursive function f.
+
+      bool  f( int x )
+      {
+            if( (x & 1) == 1 )  return (x == 1);
+            return  f( x >> 1 );               // right shift
+      }
+
+The value returned by the call f(x) will determine whether the input x is
+ 
+ 
+
+(a) odd
+(b) a prime
+(c) even
+(d) a power of 2  
+Correct answer is  (d)  
+ a power of 2  
+337.
+ Using a backtracking technique to solve a problem typically involves 
+ 
+ 
+
+(a) pursuing a possible solution until it is found to be a solution or a non-solution
+(b) using a breadth-first strategy to search the problem space
+(c) using concurrency to check several possible solutions simultaneously
+(d) starting with the set of all possible solutions and working backwards from each to determine which is the actual solution  
+Correct answer is  (a)  
+ pursuing a possible solution until it is found to be a solution or a non-solution
+338.
+ A backtracking algorithm is one that 
+ 
+ 
+
+(a) uses a binary search to solve a problem
+(b) uses loops to iterate through all possible solutions for a problem
+(c) splits a problem into two equal halves and uses recursion to solve each half
+(d) uses recursion to test all possible solutions for a problem  
+Correct answer is  (d)  
+ uses recursion to test all possible solutions for a problem  
+339.
+ Typical divide and conquer algorithms use _____ to divide a problem into smaller sub-problems. The _____ typically solve(s) these sub-problems directly. 
+ 
+ 
+
+(a) a process scheduler, individual processes
+(b) iteration, body of the loop
+(c) recursive function calls, base case of the recursion
+(d) inheritance, methods of the child class  
+Correct answer is  (c)  
+ recursive function calls, base case of the recursion
+340.
+ What is the runtime overhead of a divide-and-conquer algorithm that recursively processes two equal halves of a problem that each have an overhead of O(n)? 
+ 
+ 
+
+(a) O(n2)
+(b) O(log n)
+(c) O(n log n)
+(d) O(2n)  
+Correct answer is  (c)  
+ O(n log n)
+341.
+ Consider the following definition of a recursive function f.
+
+      int  f( int x )
+      {
+            if( x == 0 )  return 1;
+            return  x * f( x - 1 );
+      }
+
+The inputs for which f will terminate are all x such that x is
+ 
+ 
+
+(a) unrestricted
+(b) non-negative
+(c) even
+(d) odd  
+Correct answer is  (b)  
+ non-negative
+342.
+ How many calls to itself is a recursive function allowed to make? 
+ 
+
+(a) At most two
+(b) Any number
+(c) None
+(d) At most one  
+Correct answer is  (b)  
+ Any number
+343.
+ Consider the following definition of a recursive function f.
+
+      int  f( int x )
+      {
+            if( x == 0 )  return 1;
+            return  x * f( x );
+      }
+
+For which inputs x will the call f(x) terminate?
+ 
+ 
+
+(a) For all inputs x
+(b) For all odd inputs x only
+(c) For all even inputs x only
+(d) For x = 0 only  
+Correct answer is  (d)  
+ For x = 0 only  
+344.
+ Which of the following is (are) true of the minimax strategy for deciding the optimal move in a two-person game? 
+
+It assumes that a human player will eventually make a mistake by playing a move that is not optimal. 
+It is commonly used with a backtracking algorithm.
+ 
+ 
+
+(a) I and II
+(b) II only
+(c) None
+(d) I only  
+Correct answer is  (b)  
+ II only
+345.
+ A divide-and-conquer algorithm typically makes use of 
+ 
+ 
+
+(a) recursion
+(b) integer division
+(c) iteration through looping
+(d) floating-point division  
+Correct answer is  (a)  
+ recursion
+346.
+ Consider the following C++ function that uses a divide and conquer approach to calculate the sum of a range of numbers. 
+
+int sum(int i, int j) {
+    if (i == j) {
+      return i;
+    }
+    else {
+        int mid = (i+j) / 2;
+      int result = sum(i,mid) + sum(mid+1,j);
+      return result;
+    }
+}
+Which of the following lines of code from the above function divides this problem into sub-problems? 
+ 
+ 
+
+(a) int mid = (i+j) / 2;
+(b) int result = sum(i,mid) + sum(mid+1,j);
+(c) if (i == j) {
+(d) return result;  
+Correct answer is  (b)  
+ int result = sum(i,mid) + sum(mid+1,j);
+347.
+ Consider the following definition of a recursive function ff in C++. 
+
+int  ff( int n, int m )
+{
+    if( n == 0 ) return 0;
+    return  ff( n - 1, m ) + m;
+}
+Which of the following characterizes the value returned by the call f(n,m)? 
+ 
+ 
+
+(a) The product of m and n
+(b) The least common multiple of m and n
+(c) The greatest common divisor of m and n
+(d) The sum of m and n  
+Correct answer is  (a)  
+ The product of m and n
+348.
+ Consider the following C++ template function. 
+
+template <class T>
+void mystery_sort(vector<T>& v) {
+
+    for (int i = 0; i < v.size() - 1; i++) {
+        int best = i;
+        for (int j = i + 1; j < v.size(); j++) {
+            if (v[j] < v[best]) {
+                best = j;
+            }
+        }
+
+        if (best != i) {
+            T temp = v[i];
+            v[i] = v[best];
+            v[best] = temp;
+        }
+    }
+}
+The above function implements which of the following sort algorithms? 
+ 
+ 
+
+(a) Quicksort
+(b) Bubble sort
+(c) Merge sort
+(d) Selection sort  
+Correct answer is  (d)  
+ Selection sort  
+349.
+ Consider the following outline of a template sorting function.
+
+      template<class T>  void  sort( T a[], int n ) { ... }
+
+For a given sorting algorithm S, which of the following is true about using this outline to implement S?
+ 
+ 
+
+(a) It is a reasonable way to implement S.
+(b) It is a poor choice since it does not work with linked lists.
+(c) It is a poor choice since templates slow down sorting.
+(d) It is impossible since the algorithm cannot know how to compare two instances of type T.  
+Correct answer is  (a)  
+ It is a reasonable way to implement S.
+350.
+ Consider a data set of 100 items. Which of the following is a search algorithm (are search algorithms) that could possibly examine 25 items in this set before succeeding? 
+
+Linear search 
+Binary search
+ 
+ 
+
+(a) I only
+(b) I and II
+(c) II only
+(d) None  
+Correct answer is  (a)  
+ I only
+351.
+ Which of the following statements about both arrays and linked lists is (are) true? 
+
+Direct element access using subscripts is supported in both the containers. 
+Both can be searched using binary search. 
+Elements of both the containers can be sorted.
+ 
+ 
+
+(a) II only
+(b) I, II, and III
+(c) II and III only
+(d) III only  
+Correct answer is  (d)  
+ III only  
+352.
+ For a template hash table class to work with some user-defined key type Thing, the user has to specify 
+ 
+
+(a) just the type Thing.
+(b) the type Thing and a hash function for Thing.
+(c) the type Thing, a hash function for Thing, and equality testing for Thing.
+(d) just the size of the table, templates take care of the rest.  
+Correct answer is  (c)  
+ the type Thing, a hash function for Thing, and equality testing for Thing.
+353.
+ Suppose hash() is a hash function. The main idea behind hashing is to use a key k to store a value v in which position of a table? 
+ 
+
+(a) hash(v)
+(b) hash(k)
+(c) hash() (a random position computed by the hash function using k)
+(d) hash(k,v)  
+Correct answer is  (b)  
+ hash(k)
+354.
+ Consider the following definition of a recursive function, power, that will perform exponentiation.
+
+      int  power( int b, int e )
+      {
+        if( e == 0 ) return 1;
+        if( e % 2 = 0 ) return  power( b * b, e/2 ); 
+        return  b * power( b * b, e/2 );
+      }
+
+Asymptotically in terms of the exponent e, the number of calls to power that occur as a result of the call power(b,e) is
+ 
+ 
+
+(a) quadratic
+(b) logarithmic
+(c) exponential
+(d) linear  
+Correct answer is  (b)  
+ logarithmic
+355.
+ The asymptotic running time that most closely bounds the performance of a selection sort on an input array with length n is 
+ 
+
+(a) O(n log n)
+(b) O(n2)
+(c) O(n)
+(d) O(2n)  
+Correct answer is  (b)  
+ O(n2)
+356.
+ Consider the following code fragment.
+
+      for( int i = n; i > 0; i /= 2 ) body;
+
+If body executes in O(1) time, then the asymptotic running time that most closely bounds the fragment is
+ 
+ 
+
+(a) O(n)
+(b) O(log n)
+(c) O(n2)
+(d) O(n log n)  
+Correct answer is  (b)  
+ O(log n)
+357.
+ Searching for an element in a linked list containing n elements is most closely bounded from above by 
+ 
+ 
+
+(a) O(1)
+(b) O(n3)
+(c) O(n)
+(d) O(n2)  
+Correct answer is  (c)  
+ O(n)
+358.
+ Which of the following statements about arrays and linked lists is (are) true in the context of a sorting algorithm? 
+
+The sorting algorithm is asymptotically faster if the elements are in an array rather than a linked list. 
+For the algorithm to be implemented, direct element access must be supported in both the containers.
+ 
+ 
+
+(a) II only
+(b) None
+(c) I and II
+(d) I only  
+Correct answer is  (b)  
+ None
+359.
+ Which of the following statements is true of the selection-sort algorithm? 
+
+It is a divide-and-conquer algorithm typically implemented using recursion. 
+An implementation of the algorithm typically requires the use of a hash table.
+ 
+ 
+
+(a) II only
+(b) I and II
+(c) None
+(d) I only  
+Correct answer is  (c)  
+ None
+360.
+ In a search over a data set with 1000 items, the maximum number of items examined by a linear search is _____, and the maximum number of items examined by a binary search is _____. 
+ 
+ 
+
+(a) 1000, 10
+(b) 3, 100
+(c) 100, 3
+(d) 10, 1000  
+Correct answer is  (a)  
+ 1000, 10
+361.
+ What is the purpose of using memoizing? 
+ 
+
+(a) To improve the memory requirements of hash tables
+(b) To eliminate recursion in computing function values
+(c) To store return values of functions, in order to avoid recomputation
+(d) To speed up access in a hash table  
+Correct answer is  (c)  
+ To store return values of functions, in order to avoid recomputation
+362.
+ Which of the following indicates the primary difficulty with hashing in general? 
+ 
+
+(a) Hash functions are hard to compute.
+(b) Access in hash tables is slow.
+(c) Hash tables take up a lot of memory.
+(d) Collisions will occur.  
+Correct answer is  (d)  
+ Collisions will occur.  
+363.
+ Consider the following C++ code fragment.
+
+for( int i = 0; i < n; i++ ) {
+    for( int j = 0; j < n; j++ ) {
+        for( int k = 0; k < n; k++ ) {
+            body;
+        }
+    }
+}
+
+If body executes in constant time, then the asymptotic running time that most closely bounds from above the performance of this code fragment is
+ 
+ 
+
+(a) O(2n)
+(b) O(n2)
+(c) O(n3)
+(d) O(n)  
+Correct answer is  (c)  
+ O(n3)
+364.
+ Consider the following C++ code fragment.
+
+for( int i = 0; i < n; i += 2 ) {
+    for(int  j = i; j > 0; j -= 3 ) {
+        body
+    }
+}
+
+If body executes in constant time, then the asymptotic running time that most closely bounds from above the performance of this code fragment is
+ 
+ 
+
+(a) O(n)
+(b) O(n2)
+(c) O(n log n)
+(d) O(n3)  
+Correct answer is  (b)  
+ O(n2)
+365.
+ Which of the following search algorithms can be applied to unsorted data? 
+
+Linear search 
+Binary search
+ 
+ 
+
+(a) I only
+(b) I and II
+(c) II only
+(d) None  
+Correct answer is  (a)  
+ I only
+366.
+ Consider the following statement using the STL sort() routine.
+
+      sort( A.begin(), A.end(), f );
+
+Which of the following most accurately describes the result of executing this statement?
+ 
+ 
+
+(a) Container A is sorted using the Boolean valued function f for comparisons.
+(b) Container A is sorted using the function f for assignments.
+(c) Container A is sorted using sorting algorithm f.
+(d) Container A is sorted by applying function f to its elements.  
+Correct answer is  (a)  
+ Container A is sorted using the Boolean valued function f for comparisons.
+367.
+ Which of the following is true about a good hash function? 
+ 
+
+(a) It should produce small outputs for small inputs.
+(b) It should only output prime numbers.
+(c) It should never output a prime number.
+(d) It should produce apparently random values for given items.  
+Correct answer is  (d)  
+ It should produce apparently random values for given items.  
+368.
+ The asymptotic running time that most closely bounds the performance of insertion sort on an input array with length n is 
+ 
+
+(a) O(n2)
+(b) O(n)
+(c) O(n log n)
+(d) O(2n)  
+Correct answer is  (a)  
+ O(n2)
+369.
+ Consider the following C++ code fragment.
+
+for( int i = 0; i < n; i += 2 ) {
+    for( int j = 0; j < n; j += 3 ) {
+        for( int k = 0; k < n; k += 4 ) {
+            body;
+        }
+    }
+}
+
+If body executes in constant time, then the asymptotic running time that most closely bounds from above the performance of this code fragment is
+ 
+ 
+
+(a) O(n2)
+(b) O(n log n)
+(c) O(n)
+(d) O(n3)  
+Correct answer is  (d)  
+ O(n3)  
+370.
+ The asymptotic running time of merge sort with an input array of length n is most closely bound from above by? 
+ 
+
+(a) O(2n)
+(b) O(n2)
+(c) O(n)
+(d) O(n log n)  
+Correct answer is  (d)  
+ O(n log n)  
+371.
+ A hash table that stores whether or not a key is present, but does not associate any other information with the key, is commonly known as 
+ 
+ 
+
+(a) a hash set
+(b) a hash map
+(c) an associative hash table
+(d) a hash function  
+Correct answer is  (a)  
+ a hash set
+372.
+ Consider the following C++ code fragment.
+
+      for( int i = 1; i < n; i *= 2 ) body;
+
+If body executes in O(1) time, then the asymptotic running time that most closely bounds the code fragment above is
+ 
+ 
+
+(a) O(n2)
+(b) O(n log n)
+(c) O(n)
+(d) O(log n)  
+Correct answer is  (d)  
+ O(log n)  
+373.
+ Which of the following is true about the total number of nodes in a tree with depth two? 
+ 
+
+(a) It is at most two.
+(b) There is no bound on the number of nodes.
+(c) It is at most one.
+(d) It is at most three.  
+Correct answer is  (b)  
+ There is no bound on the number of nodes.
+374.
+ By definition, a(n) _____ graph contains edges that can be traversed in either direction.
+ 
+ 
+
+(a) disconnected
+(b) connected
+(c) directed
+(d) undirected  
+Correct answer is  (d)  
+ undirected  
+375.
+ Which of the following is a C++ data structure that represents a list of entries consisting of unique keys and their associated values? 
+ 
+ 
+
+(a) set
+(b) map
+(c) stack
+(d) priority_queue  
+Correct answer is  (b)  
+ map
+376.
+ In the C++ Standard Template Library, which of the following containers represents a collection of unique elements? 
+ 
+ 
+
+(a) vector
+(b) set
+(c) string
+(d) list  
+Correct answer is  (b)  
+ set
+377.
+ A priority queue can be implemented with which of the following data structures? 
+
+A set 
+A multiset
+ 
+ 
+
+(a) II only
+(b) I and II
+(c) None
+(d) I only  
+Correct answer is  (a)  
+ II only
+378.
+ Each of the following indicates a reasonable way to implement graphs except 
+ 
+
+(a) a binary search tree
+(b) an adjacency list
+(c) an edge list
+(d) a Boolean matrix  
+Correct answer is  (a)  
+ a binary search tree
+379.
+ Which of the following statements is true of a breadth-first search? 
+ 
+ 
+
+(a) For graphs whose edges have only positive weights, it is identical to a depth-first search.
+(b) It processes nodes in order of increasing distance from a starting node.
+(c) It processes nodes in order of decreasing distance from a starting node.
+(d) It is identical to the Bellman-Ford algorithm.  
+Correct answer is  (b)  
+ It processes nodes in order of increasing distance from a starting node.
+380.
+ Dijkstra's algorithm and the Bellman-Ford algorithm both determine 
+ 
+ 
+
+(a) whether a graph is directed or undirected
+(b) whether or not a graph is a tree
+(c) the shortest path between two nodes in a graph
+(d) the edge with the greatest weight in a graph  
+Correct answer is  (c)  
+ the shortest path between two nodes in a graph
+381.
+ A max heap guarantees that the values in child nodes are _____ the value in the parent node.
+ 
+ 
+
+(a) equal to
+(b) not related to
+(c) greater than
+(d) less than  
+Correct answer is  (d)  
+ less than  
+382.
+ During a failed search for an element in a completely balanced binary search tree of size 1,000,000, approximately how many nodes of the tree are visited? 
+ 
+
+(a) 20
+(b) 200
+(c) 1000
+(d) 10,000  
+Correct answer is  (a)  
+ 20
+383.
+ Which of the following is a C++ data structure that represents an ordered list with no duplicate items? 
+ 
+ 
+
+(a) vector
+(b) tree
+(c) set
+(d) priority queue  
+Correct answer is  (c)  
+ set
+384.
+ A graph-searching strategy that processes vertices in layers such that layers closest to the starting point are searched before those that are more distant is known as a _____ search. 
+ 
+ 
+
+(a) heap
+(b) depth-first
+(c) breadth-first
+(d) linear  
+Correct answer is  (c)  
+ breadth-first
+385.
+ For all binary search trees, where d represents the depth of a tree and n represents the number of nodes, the worst-case complexity of searching for an element is 
+ 
+ 
+
+(a) O(n*d)
+(b) O(d)
+(c) O(n)
+(d) O(n/d)  
+Correct answer is  (b)  
+ O(d)
+386.
+ Which of the following is true about the depth of a tree with exactly three nodes? 
+ 
+
+(a) It is at most one.
+(b) There is no bound on the depth.
+(c) It is at most three.
+(d) It is at most two.  
+Correct answer is  (d)  
+ It is at most two.  
+387.
+ In the C++ Standard Template Library, which of the following containers stores only key-value pairs? 
+ 
+ 
+
+(a) priority_queue
+(b) map
+(c) list
+(d) set  
+Correct answer is  (b)  
+ map
+388.
+ The time to perform depth first search, starting at the first vertex of a graph with n vertices and e edges implemented as an adjacency list has what order? 
+ 
+
+(a) O(n)
+(b) O(n^2)
+(c) O(n * e)
+(d) O(n + e)  
+Correct answer is  (d)  
+ O(n + e)  
+389.
+ Which of the following statements is true of both depth-first and breadth-first searches? 
+ 
+ 
+
+(a) They can each be used calculate the shortest path between two nodes in a weighted graph.
+(b) Their implementations each require a queue of nodes.
+(c) Their implementations each require a stack of nodes.
+(d) From a given starting node, they will not necessarily explore all other nodes in a graph.  
+Correct answer is  (d)  
+ From a given starting node, they will not necessarily explore all other nodes in a graph.  
+390.
+ If numbers 1,2,...,n are inserted into a binary search tree, in order, then the result for large n is a 
+ 
+
+(a) completely balanced tree
+(b) totally unbalanced tree
+(c) mildly unbalanced tree
+(d) tree where all nodes are full  
+Correct answer is  (b)  
+ totally unbalanced tree
+391.
+ A node in a tree that does not have any children is called 
+ 
+
+(a) a root
+(b) an internal node
+(c) a leaf
+(d) an empty node  
+Correct answer is  (c)  
+ a leaf
+392.
+ Which of the following statements about binary trees is true? 
+ 
+ 
+
+(a) Every node of a binary tree has at most two children.
+(b) Exactly two paths exist between any two nodes in a binary tree.
+(c) Every node of a binary tree has at most two predecessors.
+(d) A binary tree contains exactly two nodes.  
+Correct answer is  (a)  
+ Every node of a binary tree has at most two children.
+393.
+ A node in a tree that does not have a predecessor is called 
+ 
+
+(a) a leaf
+(b) an internal node
+(c) a parent node
+(d) a root  
+Correct answer is  (d)  
+ a root  
+394.
+ Which of the following is true about the total number of nodes in a binary tree with depth two? 
+ 
+
+(a) It is at most seven.
+(b) There is no bound on the number of nodes.
+(c) It is at most two.
+(d) It is at most four.  
+Correct answer is  (a)  
+ It is at most seven.
+395.
+ If numbers 1,2,...,n are inserted into a binary search tree in random order, then the result for large n is a 
+ 
+
+(a) tree where all nodes are full
+(b) totally unbalanced tree
+(c) completely balanced tree
+(d) reasonably balanced tree  
+Correct answer is  (d)  
+ reasonably balanced tree  

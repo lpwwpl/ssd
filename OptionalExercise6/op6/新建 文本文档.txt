@@ -1,0 +1,16 @@
+/*
+	if(name == p->name) {
+		h = count;
+		count = 1;
+		return h;
+	} else {int t = 0;
+		for(it = sub_parts.begin();it != sub_parts.end();it++) {		
+			count = count * it->second;		
+			if(it->first->sub_parts.size() == 0) {
+				count = count / it->second;
+			}
+			it->first->count_howmany(p);
+		}
+	}
+	return h;
+*/

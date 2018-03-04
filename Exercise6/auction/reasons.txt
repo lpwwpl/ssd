@@ -1,0 +1,33 @@
+						Reasons : 
+
+1.  In class Category , 
+    (1). replace "vector<Category*> sub_categories" to be "set<Category*> sub_categories;"
+
+     Because the item of sub_categories is unique so using set that elements are unique in set<Category*> sub_categories. So, the code is more readability and performance.
+
+    (2). replace "vector<int> items" to be "set<int> items".
+    
+    Because the item of category is unique so using set that elements are unique in set<int> items.So, the code is more readability and performance.
+	
+2.  In class Categories 
+    (1). replace "vector<Category*> Container" to be "map<int , Category*> Container".
+    
+    Reason:
+    Simplifies access to individual Category pointer.
+    In the overload operator [] function,using the find function to achieve the special Category. So, the code is more readability and performance.
+
+3. In class Group
+    (1). replace "vector<Client*> Container" to be "map<string , Client*> Container" 
+
+    Reason:
+    Simplifies access to individual Client pointer.
+    In the overload operator [] function,using the find function to achieve the special Client. So, the code is more readability and performan
+
+4. In class Client
+   (1). replace "vector<int> offerings" to be set<int> offerings.
+   (2). replace "vector<int> bids" to be set<int> bids.
+
+   Reason:
+   Because the item of offerings is unique so using set that elements are unique in set<int> of offerings.So, the code is more readability and performance.
+   Because the item of bids is unique so using set that elements are unique in set<int> of offerings.So, the code is more readability and performance.ce.
+

@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Advertisement - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Guest\LOCALS~1\Temp\RSP16.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Advertisement.pdb" /debug /machine:I386 /out:"Debug/Advertisement.exe" /pdbtype:sept 
+".\Debug\Advertisement.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\Guest\LOCALS~1\Temp\RSP16.tmp"
+<h3>Output Window</h3>
+Linking...
+Advertisement.obj : error LNK2001: unresolved external symbol "public: __thiscall Date::Date(void)" (??0Date@@QAE@XZ)
+Advertisement.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall Date::operator<(class Date const &)" (??MDate@@UAE_NABV0@@Z)
+Advertisement.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall Date::operator==(class Date const &)" (??8Date@@UAE_NABV0@@Z)
+Advertisement.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall Date::getSecond(void)const " (?getSecond@Date@@UBEHXZ)
+Advertisement.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall Date::getMinute(void)const " (?getMinute@Date@@UBEHXZ)
+Advertisement.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall Date::getHour(void)const " (?getHour@Date@@UBEHXZ)
+Advertisement.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall Date::getYear(void)const " (?getYear@Date@@UBEHXZ)
+Advertisement.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall Date::getDay(void)const " (?getDay@Date@@UBEHXZ)
+Advertisement.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall Date::getMonth(void)const " (?getMonth@Date@@UBEHXZ)
+Advertisement.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Date::setSecond(int &)" (?setSecond@Date@@UAEXAAH@Z)
+Advertisement.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Date::setMinute(int &)" (?setMinute@Date@@UAEXAAH@Z)
+Advertisement.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Date::setHour(int &)" (?setHour@Date@@UAEXAAH@Z)
+Advertisement.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Date::setYear(int &)" (?setYear@Date@@UAEXAAH@Z)
+Advertisement.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Date::setDay(int &)" (?setDay@Date@@UAEXAAH@Z)
+Advertisement.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Date::setMonth(int &)" (?setMonth@Date@@UAEXAAH@Z)
+LIBCD.lib(crt0.obj) : error LNK2001: unresolved external symbol _main
+Debug/Advertisement.exe : fatal error LNK1120: 16 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+Advertisement.exe - 17 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
